@@ -1,0 +1,111 @@
+/* Arrival card CSS - Synchronized with Figma Node ID: 52:5981 */
+
+.figma-arrival-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-3, 12px);
+  background-color: #5b21b6; /* Exact Figma Fill: #5b21b6 */
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: 20px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
+  color: #ffffff;
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+}
+
+.figma-arrival-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figma-arrival-card__title {
+  margin: 0;
+  font-size: var(--uedp-typography-font-size-xl, 20px);
+  font-weight: var(--uedp-typography-font-weight-bold, 700);
+  color: #eab308; /* Exact Figma Fill: #eab308 */
+}
+
+.figma-arrival-card__subtitle {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
+  margin-top: 2px;
+}
+
+.figma-arrival-card__dest-box {
+  background-color: #3e2a64; /* Exact Figma Fill: #3e2a64 */
+  padding: 12px 14px;
+  border-radius: var(--uedp-radii-md, 8px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ddd6fe; /* Exact Figma Fill: #ddd6fe */
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.figma-arrival-card__metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(62, 42, 100, 0.5);
+  padding: 12px;
+  border-radius: var(--uedp-radii-md, 8px);
+}
+
+.figma-arrival-card__metric-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.figma-arrival-card__metric-label {
+  font-size: 11px;
+  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
+}
+
+.figma-arrival-card__metric-val {
+  font-size: 14px;
+  font-weight: 700;
+  color: #eab308; /* Exact Figma Fill: #eab308 */
+}
+
+.figma-arrival-card__divider {
+  height: 20px;
+  width: 1px;
+  background-color: var(--uedp-primary-100, #dbeafe);
+}
+
+.figma-arrival-card__footer-title {
+  font-size: 13px;
+  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
+  font-weight: 500;
+}
+
+.figma-arrival-card__safety-btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.figma-arrival-card__safety-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--uedp-primary-50, #eff6ff); /* Exact Figma Fill: --uedp-primary-50 */
+  color: #ede9fe; /* Exact Figma Text Fill: #ede9fe */
+  border: none;
+  border-radius: var(--uedp-radii-md, 8px);
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.figma-arrival-card__safety-btn:hover {
+  opacity: 0.9;
+}

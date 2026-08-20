@@ -1,0 +1,119 @@
+=== [Typography and color palette] Typography (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Heading': Fills=['#000000'], Strokes=[], Texts=[("'Heading'", ['#000000'])]
+   Variant 'Heading': Fills=['#000000'], Strokes=[], Texts=[("'Heading'", ['#000000'])]
+   Variant 'Heading': Fills=['#000000'], Strokes=[], Texts=[("'Heading'", ['#000000'])]
+   Variant 'Heading 2': Fills=['#000000'], Strokes=[], Texts=[("'Heading 2'", ['#000000'])]
+   Variant 'Heading 2': Fills=['#000000'], Strokes=[], Texts=[("'Heading 2'", ['#000000'])]
+   Variant 'Heading 3': Fills=['#000000'], Strokes=[], Texts=[("'Heading 3'", ['#000000'])]
+   Variant 'Heading 3': Fills=['#000000'], Strokes=[], Texts=[("'Heading 3'", ['#000000'])]
+   Variant 'Heading 4': Fills=['#000000'], Strokes=[], Texts=[("'Heading 4'", ['#000000'])]
+   Variant 'Heading 4': Fills=['#000000'], Strokes=[], Texts=[("'Heading 4'", ['#000000'])]
+   Variant 'Heading 5': Fills=['#000000'], Strokes=[], Texts=[("'Heading 5'", ['#000000'])]
+   Variant 'Heading 5': Fills=['#000000'], Strokes=[], Texts=[("'Heading 5'", ['#000000'])]
+   Variant 'Heading 6': Fills=['#000000'], Strokes=[], Texts=[("'Heading 6'", ['#000000'])]
+   Variant 'Heading 6': Fills=['#000000'], Strokes=[], Texts=[("'Heading 6'", ['#000000'])]
+=== [Typography and color palette] Color palette (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Frame 1': Fills=[], Strokes=[], Texts=[]
+   Variant 'Frame 2': Fills=[], Strokes=[], Texts=[]
+=== [Icons] Icons (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Icons': Fills=[], Strokes=[], Texts=[]
+=== [Buttons] Buttons (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Frame 150': Fills=[], Strokes=[], Texts=[("'Tiny'", ['#000000']), ("'Medium'", ['#000000'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'Buttons': Fills=[], Strokes=['#8a38f5'], Texts=[("'Text'", ['#ffffff']), ("'Text'", ['#ffffff'])]
+=== [Buttons] Icons Buttons (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Frame 150': Fills=[], Strokes=[], Texts=[("'Tiny'", ['#000000']), ("'Small'", ['#000000'])]
+   Variant 'Frame 151': Fills=[], Strokes=[], Texts=[("'Tiny'", ['#000000']), ("'Small'", ['#000000'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'Frame 152': Fills=[], Strokes=[], Texts=[("'Tiny'", ['#000000']), ("'Small'", ['#000000'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+   Variant 'Component 20': Fills=[], Strokes=['#8a38f5'], Texts=[("'Caption'", ['#ffffff']), ("'Text'", ['--uedp-primary-100'])]
+=== [Buttons] Emoji button (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Safety button': Fills=[], Strokes=['#8a38f5'], Texts=[("'😁'", ['#000000']), ("'Safe'", ['#ede9fe'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Hover'", ['#131927'])]
+=== [Buttons] Switch (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Switch': Fills=[], Strokes=['#8a38f5'], Texts=[]
+   Variant 'On': Fills=['#000000'], Strokes=[], Texts=[("'On'", ['#000000'])]
+   Variant 'Off': Fills=['#000000'], Strokes=[], Texts=[("'Off'", ['#000000'])]
+=== [Buttons] Radio button (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Unselected'", ['#131927']), ("'Selected'", ['#131927'])]
+   Variant 'Radial button': Fills=[], Strokes=['#8a38f5'], Texts=[]
+=== [Text fields] Text fields (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Component 1': Fills=[], Strokes=['#8a38f5'], Texts=[("'Heading'", ['--uedp-primary-100']), ("'Fill me'", ['--uedp-primary-500'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Press'", ['#131927'])]
+=== [Navigation Bar] Navigation bar (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Frame 16': Fills=[], Strokes=[], Texts=[("'Home'", ['#362061'])]
+   Variant 'Frame 17': Fills=[], Strokes=[], Texts=[("'Travel'", ['--uedp-primary-100'])]
+   Variant 'Frame 18': Fills=[], Strokes=[], Texts=[("'Community'", ['--uedp-primary-100'])]
+   Variant 'Navigation bar': Fills=[], Strokes=['#8a38f5'], Texts=[("'SOS'", ['#ffffff']), ("'Home'", ['--uedp-primary-600'])]
+   Variant 'Frame 19': Fills=[], Strokes=[], Texts=[("'Help'", ['--uedp-primary-100'])]
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Inactive'", ['#131927']), ("'Home'", ['#131927'])]
+=== [Verification code] Verification code (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Press'", ['#131927'])]
+   Variant 'Component 1': Fills=[], Strokes=['#8a38f5'], Texts=[("'Verification code sent'", ['--uedp-primary-100']), ("'Send another code 30s'", ['--uedp-primary-100'])]
+=== [Hamburger menu] Hamburger (Fills: [], Strokes: []) ===
+   Variant 'Rectangle 170': Fills=['--uedp-primary-100'], Strokes=[], Texts=[]
+   Variant 'basil:cross-solid': Fills=[], Strokes=[], Texts=[]
+   Variant 'Frame 39377': Fills=[], Strokes=[], Texts=[("'Profile'", ['#ffffff']), ("'Accessibility'", ['#ffffff'])]
+=== [Dropdown menu] Dropdown menu (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Dropdown menu': Fills=[], Strokes=['#8a38f5'], Texts=[("'Choose destination'", ['#ffffff']), ("'Search destination'", ['#ffffff'])]
+=== [Search bar] Search bar (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'State': Fills=[], Strokes=[], Texts=[("'Default'", ['#131927']), ("'Press'", ['#131927'])]
+   Variant 'Frame 4': Fills=[], Strokes=[], Texts=[("'Search city'", ['--uedp-primary-600']), ("'Search city'", ['--uedp-primary-600'])]
+=== [Article thumbnail] Article thumbnail (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'How to navigate safely'", ['#ffffff']), ("'How to navigate safely'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'Safety tips for public transport'", ['#ffffff']), ("'Safety tips for public transport'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'How to travel anxiety free'", ['#ffffff']), ("'How to travel anxiety free'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'How to enjoy your own company'", ['#ffffff']), ("'How to enjoy your own company'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'Packing 101'", ['#ffffff']), ("'Packing 101'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'How to crush men'", ['#ffffff']), ("'How to crush men'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'Don’t stress about planning'", ['#ffffff']), ("'Don’t stress about planning'", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'Karate 101 '", ['#ffffff']), ("'Karate 101 '", ['#ffffff'])]
+   Variant 'Default': Fills=[], Strokes=['#8a38f5'], Texts=[("'Basic self defense'", ['#ffffff']), ("'Basic self defense'", ['#ffffff'])]
+=== [Location card ] Location card 1 (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Location card ': Fills=[], Strokes=['#8a38f5'], Texts=[("'Mrug Crafts'", ['#362061']), ("'Safety score'", ['#5f507e'])]
+   Variant 'Frame 6': Fills=[], Strokes=[], Texts=[("'Default'", ['#000000']), ("'Presssed'", ['#000000'])]
+=== [Location card ] Location card 2  (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Location card ': Fills=[], Strokes=['#8a38f5'], Texts=[("'Enspire reading spaces'", ['#362061']), ("'Safety score'", ['#5f507e'])]
+   Variant 'Frame 6': Fills=[], Strokes=[], Texts=[("'Default'", ['#000000']), ("'Presssed'", ['#000000'])]
+=== [Location card ] Location card 3  (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Location card ': Fills=[], Strokes=['#8a38f5'], Texts=[("'Ajit bakery'", ['#362061']), ("'Safety score'", ['#5f507e'])]
+   Variant 'Frame 6': Fills=[], Strokes=[], Texts=[("'Default'", ['#000000']), ("'Presssed'", ['#000000'])]
+=== [Location card ] Location card 4 (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Location card ': Fills=[], Strokes=['#8a38f5'], Texts=[("'Umred park'", ['#362061']), ("'Safety score'", ['#5f507e'])]
+   Variant 'Frame 6': Fills=[], Strokes=[], Texts=[("'Default'", ['#000000']), ("'Presssed'", ['#000000'])]
+=== [Location card ] Location card 5 (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Location card ': Fills=[], Strokes=['#8a38f5'], Texts=[("'Jhilpi lake'", ['#362061']), ("'Safety score'", ['#5f507e'])]
+   Variant 'Frame 6': Fills=[], Strokes=[], Texts=[("'Default'", ['#000000']), ("'Presssed'", ['#000000'])]
+=== [Location card ] image 42 (Fills: [], Strokes: []) ===
+   Variant 'image 42': Fills=[], Strokes=[], Texts=[]
+=== [Location card ] image 40 (Fills: [], Strokes: []) ===
+   Variant 'image 40': Fills=[], Strokes=[], Texts=[]
+=== [Location card ] image 38 (Fills: [], Strokes: []) ===
+   Variant 'image 38': Fills=[], Strokes=[], Texts=[]
+=== [Location card ] image 4 (Fills: [], Strokes: []) ===
+   Variant 'image 4': Fills=[], Strokes=[], Texts=[]
+=== [Location card ] image 39 (Fills: [], Strokes: []) ===
+   Variant 'image 39': Fills=[], Strokes=[], Texts=[]
+=== [Questionnaire card] Questionnaire card (Fills: ['#ffffff'], Strokes: []) ===
+   Variant 'Questionnaire card': Fills=['--uedp-primary-300'], Strokes=[], Texts=[("'1. How do u usually travel?'", ['--uedp-primary-100']), ("'Option1'", ['--uedp-primary-100'])]
+=== [Arrival card] Arrival card (Fills: ['#5b21b6'], Strokes: []) ===
+   Variant 'You reached your destination safe.': Fills=['#a78bfa'], Strokes=[], Texts=[("'You reached your destination safe.'", ['#a78bfa'])]
+   Variant 'Group 16': Fills=[], Strokes=[], Texts=[]
+   Variant 'Rectangle 85': Fills=['#ddd6fe'], Strokes=[], Texts=[]
+   Variant 'You’ve arrived!': Fills=['#eab308'], Strokes=[], Texts=[("'You’ve arrived!'", ['#eab308'])]
+   Variant 'Group 281': Fills=[], Strokes=[], Texts=[("'Mrug Crafts'", ['#ddd6fe'])]
+   Variant 'Group 193': Fills=[], Strokes=[], Texts=[("'Trip time'", ['#a78bfa']), ("'5 min'", ['#eab308'])]
+   Variant 'Group 204': Fills=[], Strokes=[], Texts=[("'Safety check-in'", ['#ddd6fe']), ("'Let your saathis know you’re ok'", ['#a78bfa'])]
+   Variant 'teenyicons:tick-circle-solid': Fills=[], Strokes=[], Texts=[]
+   Variant 'How was your route?': Fills=['#a78bfa'], Strokes=[], Texts=[("'How was your route?'", ['#a78bfa'])]
+   Variant 'Safety button': Fills=['--uedp-primary-50'], Strokes=[], Texts=[("'😟'", ['#000000']), ("'Unsafe'", ['#ede9fe'])]
+   Variant 'Safety button': Fills=['--uedp-primary-50'], Strokes=[], Texts=[("'😐'", ['#000000']), ("'Ok'", ['#ede9fe'])]
+   Variant 'Safety button': Fills=['--uedp-primary-50'], Strokes=[], Texts=[("'🚨'", ['#000000']), ("'Report'", ['#ede9fe'])]
+   Variant 'Safety button': Fills=['--uedp-primary-50'], Strokes=[], Texts=[("'😁'", ['#000000']), ("'Safe'", ['#ede9fe'])]
+=== [Incident heat map card] Incident heat map card (Fills: ['#dcdcdc'], Strokes: ['#8a38f5']) ===
+   Variant 'State=Default': Fills=[], Strokes=[], Texts=[("'Domestic Violence'", ['#3b0764']), ("'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission'", ['#3b0764'])]
+   Variant 'State=Hover': Fills=[], Strokes=[], Texts=[("'Domestic Violence'", ['#3b0764']), ("'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission'", ['#3b0764'])]

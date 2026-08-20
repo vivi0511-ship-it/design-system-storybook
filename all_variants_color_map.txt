@@ -1,0 +1,1876 @@
+
+==================== Typography and color palette -> [FRAME] Typography (id: 56:303) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [TEXT] 'Heading' | Fills: ['#000000'] | Text: 'Heading'
+  [TEXT] 'Heading' | Fills: ['#000000'] | Text: 'Heading'
+  [TEXT] 'Heading' | Fills: ['#000000'] | Text: 'Heading'
+  [TEXT] 'Heading 2' | Fills: ['#000000'] | Text: 'Heading 2'
+  [TEXT] 'Heading 2' | Fills: ['#000000'] | Text: 'Heading 2'
+  [TEXT] 'Heading 3' | Fills: ['#000000'] | Text: 'Heading 3'
+  [TEXT] 'Heading 3' | Fills: ['#000000'] | Text: 'Heading 3'
+  [TEXT] 'Heading 4' | Fills: ['#000000'] | Text: 'Heading 4'
+  [TEXT] 'Heading 4' | Fills: ['#000000'] | Text: 'Heading 4'
+  [TEXT] 'Heading 5' | Fills: ['#000000'] | Text: 'Heading 5'
+  [TEXT] 'Heading 5' | Fills: ['#000000'] | Text: 'Heading 5'
+  [TEXT] 'Heading 6' | Fills: ['#000000'] | Text: 'Heading 6'
+  [TEXT] 'Heading 6' | Fills: ['#000000'] | Text: 'Heading 6'
+
+==================== Typography and color palette -> [FRAME] Color palette (id: 56:323) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'Frame 1'
+    [RECTANGLE] 'Rectangle 1' | Fills: ['#f5f3ff']
+    [RECTANGLE] 'Rectangle 2' | Fills: ['#ede9fe']
+    [RECTANGLE] 'Rectangle 3' | Fills: ['#ddd6fe']
+    [RECTANGLE] 'Rectangle 4' | Fills: ['#c4b5fd']
+    [RECTANGLE] 'Rectangle 5' | Fills: ['#a78bfa']
+    [RECTANGLE] 'Rectangle 7' | Fills: ['#8b5cf6']
+    [RECTANGLE] 'Rectangle 6' | Fills: ['#7c3aed']
+    [RECTANGLE] 'Rectangle 8' | Fills: ['#6d28d9']
+    [RECTANGLE] 'Rectangle 10' | Fills: ['#5b21b6']
+    [RECTANGLE] 'Rectangle 9' | Fills: ['--uedp-primary-50']
+    [RECTANGLE] 'Rectangle 11' | Fills: ['--uedp-primary-100']
+  [FRAME] 'Frame 2'
+    [RECTANGLE] 'Rectangle 1' | Fills: ['--uedp-primary-200']
+    [RECTANGLE] 'Rectangle 2' | Fills: ['--uedp-primary-300']
+    [RECTANGLE] 'Rectangle 3' | Fills: ['--uedp-primary-400']
+    [RECTANGLE] 'Rectangle 4' | Fills: ['--uedp-primary-500']
+    [RECTANGLE] 'Rectangle 5' | Fills: ['--uedp-primary-600']
+    [RECTANGLE] 'Rectangle 7' | Fills: ['--uedp-primary-700']
+    [RECTANGLE] 'Rectangle 6' | Fills: ['--uedp-primary-800']
+    [RECTANGLE] 'Rectangle 8' | Fills: ['--uedp-primary-900']
+    [RECTANGLE] 'Rectangle 10' | Fills: ['#6b21a8']
+    [RECTANGLE] 'Rectangle 9' | Fills: ['#581c87']
+    [RECTANGLE] 'Rectangle 11' | Fills: ['#3b0764']
+
+==================== Icons -> [FRAME] Icons (id: 41:6791) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'Icons'
+    [COMPONENT] 'Incident heat map icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Time again icon'
+      [GROUP] 'Group'
+        [GROUP] 'Mask group'
+          [GROUP] 'Group'
+            [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [GROUP] 'Group'
+              [VECTOR] 'Vector' | Fills: ['#000000']
+              [VECTOR] 'Vector' | Fills: ['#000000']
+              [VECTOR] 'Vector' | Fills: ['#000000']
+              [VECTOR] 'Vector' | Fills: ['#000000']
+          [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Safe space'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Mic'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Suitcase'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Help icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Bus icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Train icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Battery saver icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'no wifi icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Chat icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Documents icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Shieldicon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Location pin icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'People'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Home icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'mdi:car-police'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Settings icon'
+      [VECTOR] 'Vector' | Fills: ['#000000']
+    [COMPONENT] 'Arrow icon'
+      [VECTOR] 'Vector' | Strokes: ['#000000']
+
+==================== Buttons -> [FRAME] Buttons (id: 41:6793) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'Frame 150'
+    [TEXT] 'Tiny' | Fills: ['#000000'] | Text: 'Tiny'
+    [TEXT] 'Medium' | Fills: ['#000000'] | Text: 'Medium'
+    [TEXT] 'Large' | Fills: ['#000000'] | Text: 'Large'
+    [TEXT] 'Giant' | Fills: ['#000000'] | Text: 'Giant'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [COMPONENT_SET] 'Buttons' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default, Type=Primary, Size=Medium' | Fills: ['#7c3aed']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Primary, Size=Big' | Fills: ['#7c3aed']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Primary, Size=Large' | Fills: ['#7c3aed']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Primary, Size=Tiny' | Fills: ['#7c3aed']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Medium' | Fills: ['#ddd6fe']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Big' | Fills: ['#ddd6fe']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Large' | Fills: ['#ddd6fe']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Tiny' | Fills: ['#ddd6fe']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Medium' | Fills: ['#22c55e']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Big' | Fills: ['#22c55e']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Large' | Fills: ['#22c55e']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Tiny' | Fills: ['#22c55e']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Medium' | Fills: ['#5b21b6']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+      [TEXT] 'Text' | Fills: ['#ede9fe'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Big' | Fills: ['#5b21b6']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+      [TEXT] 'Text' | Fills: ['#ede9fe'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Large' | Fills: ['#5b21b6']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+      [TEXT] 'Text' | Fills: ['#ede9fe'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Tiny' | Fills: ['#5b21b6']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+      [TEXT] 'Text' | Fills: ['#ede9fe'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ede9fe']
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Medium' | Fills: ['#a78bfa']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Big' | Fills: ['#a78bfa']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Large' | Fills: ['#a78bfa']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Tiny' | Fills: ['#a78bfa']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Medium' | Fills: ['#16a34a']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Big' | Fills: ['#16a34a']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Large' | Fills: ['#16a34a']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Tiny' | Fills: ['#16a34a']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Press, Type=Primary, Size=Medium' | Fills: ['#5b21b6'] | Strokes: ['--uedp-primary-500']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-500'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+    [COMPONENT] 'State=Press, Type=Primary, Size=Big' | Fills: ['#5b21b6'] | Strokes: ['--uedp-primary-500']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-500'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+    [COMPONENT] 'State=Press, Type=Primary, Size=Large' | Fills: ['#5b21b6'] | Strokes: ['--uedp-primary-500']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-500'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+    [COMPONENT] 'State=Press, Type=Primary, Size=Tiny' | Fills: ['#5b21b6'] | Strokes: ['--uedp-primary-500']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-500'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-500']
+    [COMPONENT] 'State=Press, Type=Secondary, Size=Medium' | Fills: ['#a78bfa'] | Strokes: ['--uedp-primary-100']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Press, Type=Secondary, Size=Big' | Fills: ['#a78bfa'] | Strokes: ['--uedp-primary-100']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Press, Type=Secondary, Size=Large' | Fills: ['#a78bfa'] | Strokes: ['--uedp-primary-100']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Press, Type=Secondary, Size=Tiny' | Fills: ['#a78bfa'] | Strokes: ['--uedp-primary-100']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Press, Type=Tertiary, Size=Medium' | Fills: ['#16a34a'] | Strokes: ['#ffffff']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Press, Type=Tertiary, Size=Big' | Fills: ['#16a34a'] | Strokes: ['#ffffff']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Press, Type=Tertiary, Size=Large' | Fills: ['#16a34a'] | Strokes: ['#ffffff']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Press, Type=Tertiary, Size=Tiny' | Fills: ['#16a34a'] | Strokes: ['#ffffff']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=Disable, Type=Primary, Size=Medium' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+    [COMPONENT] 'State=Disable, Type=Primary, Size=Big' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+    [COMPONENT] 'State=Disable, Type=Primary, Size=Large' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+    [COMPONENT] 'State=Disable, Type=Primary, Size=Tiny' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-400']
+    [COMPONENT] 'State=Disable, Type=Secondary, Size=Medium' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Disable, Type=Secondary, Size=Big' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Disable, Type=Secondary, Size=Large' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Disable, Type=Secondary, Size=Tiny' | Fills: ['#c4b5fd'] | Strokes: ['--uedp-primary-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [TEXT] 'Text' | Fills: ['--uedp-primary-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [COMPONENT] 'State=Disable, Type=Tertiary, Size=Medium' | Fills: ['#bbf7d0'] | Strokes: ['--uedp-slate-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+      [TEXT] 'Text' | Fills: ['--uedp-slate-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+    [COMPONENT] 'State=Disable, Type=Tertiary, Size=Big' | Fills: ['#bbf7d0'] | Strokes: ['--uedp-slate-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+      [TEXT] 'Text' | Fills: ['--uedp-slate-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+    [COMPONENT] 'State=Disable, Type=Tertiary, Size=Large' | Fills: ['#bbf7d0'] | Strokes: ['--uedp-slate-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+      [TEXT] 'Text' | Fills: ['--uedp-slate-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+    [COMPONENT] 'State=Disable, Type=Tertiary, Size=Tiny' | Fills: ['#bbf7d0'] | Strokes: ['--uedp-slate-400']
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+      [TEXT] 'Text' | Fills: ['--uedp-slate-400'] | Text: 'Text'
+      [INSTANCE] 'mdi:car-police'
+        [VECTOR] 'Vector' | Fills: ['--uedp-slate-400']
+
+==================== Buttons -> [FRAME] Icons Buttons (id: 41:6814) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'Frame 150'
+    [TEXT] 'Tiny' | Fills: ['#000000'] | Text: 'Tiny'
+    [TEXT] 'Small' | Fills: ['#000000'] | Text: 'Small'
+    [TEXT] 'Medium' | Fills: ['#000000'] | Text: 'Medium'
+    [TEXT] 'Large' | Fills: ['#000000'] | Text: 'Large'
+    [TEXT] 'Giant' | Fills: ['#000000'] | Text: 'Giant'
+  [FRAME] 'Frame 151'
+    [TEXT] 'Tiny' | Fills: ['#000000'] | Text: 'Tiny'
+    [TEXT] 'Small' | Fills: ['#000000'] | Text: 'Small'
+    [TEXT] 'Medium' | Fills: ['#000000'] | Text: 'Medium'
+    [TEXT] 'Large' | Fills: ['#000000'] | Text: 'Large'
+    [TEXT] 'Giant' | Fills: ['#000000'] | Text: 'Giant'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [FRAME] 'Frame 152'
+    [TEXT] 'Tiny' | Fills: ['#000000'] | Text: 'Tiny'
+    [TEXT] 'Small' | Fills: ['#000000'] | Text: 'Small'
+    [TEXT] 'Medium' | Fills: ['#000000'] | Text: 'Medium'
+    [TEXT] 'Large' | Fills: ['#000000'] | Text: 'Large'
+    [TEXT] 'Giant' | Fills: ['#000000'] | Text: 'Giant'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+  [COMPONENT_SET] 'Component 20' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default, Type=Primary, Size=Large'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-100']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Primary, Size=Giant'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-100']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Primary, Size=Medium'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-100']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Primary, Size=Small'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-100']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Primary, Size=Tiny'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-100']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Large'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['--uedp-primary-50']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Giant'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['--uedp-primary-50']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Medium'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['--uedp-primary-50']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Small'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['--uedp-primary-50']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Primary, Size=Tiny'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['--uedp-primary-50']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Primary, Size=Large'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-50'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Primary, Size=Giant'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-50'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Primary, Size=Medium'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-50'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Primary, Size=Small'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-50'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Primary, Size=Tiny'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-50'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Primary, Size=Large'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#a78bfa']
+            [TEXT] 'Caption' | Fills: ['#a78bfa'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Primary, Size=Giant'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#a78bfa']
+            [TEXT] 'Caption' | Fills: ['#a78bfa'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Primary, Size=Medium'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#a78bfa']
+            [TEXT] 'Caption' | Fills: ['#a78bfa'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Primary, Size=Small'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#a78bfa']
+            [TEXT] 'Caption' | Fills: ['#a78bfa'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Primary, Size=Tiny'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#a78bfa']
+            [TEXT] 'Caption' | Fills: ['#a78bfa'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Large'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-800']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Large'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Secondary, Size=Large'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-500'] | Strokes: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#581c87']
+            [TEXT] 'Caption' | Fills: ['#581c87'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Secondary, Size=Large'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['--uedp-primary-500']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-600'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Giant'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-800']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Giant'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Secondary, Size=Giant'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-500'] | Strokes: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#581c87']
+            [TEXT] 'Caption' | Fills: ['#581c87'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Secondary, Size=Giant'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['--uedp-primary-500']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-600'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Medium'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-800']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Medium'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Secondary, Size=Medium'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-500'] | Strokes: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#581c87']
+            [TEXT] 'Caption' | Fills: ['#581c87'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Secondary, Size=Medium'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['--uedp-primary-500']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-600'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Small'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-800']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Small'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Secondary, Size=Small'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-500'] | Strokes: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#581c87']
+            [TEXT] 'Caption' | Fills: ['#581c87'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Secondary, Size=Small'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['--uedp-primary-500']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-600'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Secondary, Size=Tiny'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['--uedp-primary-800']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Caption' | Fills: ['#ffffff'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Secondary, Size=Tiny'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Secondary, Size=Tiny'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-500'] | Strokes: ['#581c87']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#581c87']
+            [TEXT] 'Caption' | Fills: ['#581c87'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Secondary, Size=Tiny'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['--uedp-primary-500']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-600'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Large'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['#ddd6fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Large'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Tertiary, Size=Large'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-100'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#c4b5fd']
+            [TEXT] 'Caption' | Fills: ['#c4b5fd'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Tertiary, Size=Large'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#ede9fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Giant'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['#ddd6fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Giant'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Tertiary, Size=Giant'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-100'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#c4b5fd']
+            [TEXT] 'Caption' | Fills: ['#c4b5fd'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Tertiary, Size=Giant'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#ede9fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Medium'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['#ddd6fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Medium'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Tertiary, Size=Medium'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-100'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#c4b5fd']
+            [TEXT] 'Caption' | Fills: ['#c4b5fd'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Tertiary, Size=Medium'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#ede9fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Small'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['#ddd6fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Small'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Tertiary, Size=Small'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-100'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#c4b5fd']
+            [TEXT] 'Caption' | Fills: ['#c4b5fd'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Tertiary, Size=Small'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#ede9fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Default, Type=Tertiary, Size=Tiny'
+      [FRAME] 'Frame 156'
+        [FRAME] 'Frame 155' | Fills: ['#ddd6fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Hover, Type=Tertiary, Size=Tiny'
+      [FRAME] 'Frame 157'
+        [FRAME] 'Frame 154' | Fills: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Caption' | Fills: ['--uedp-primary-100'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Selected, Type=Tertiary, Size=Tiny'
+      [FRAME] 'Frame 158'
+        [FRAME] 'Frame 153' | Fills: ['--uedp-primary-100'] | Strokes: ['#c4b5fd']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#c4b5fd']
+            [TEXT] 'Caption' | Fills: ['#c4b5fd'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+    [COMPONENT] 'State=Disabled, Type=Tertiary, Size=Tiny'
+      [FRAME] 'Frame 159'
+        [FRAME] 'Frame 152' | Fills: ['#ede9fe']
+          [FRAME] 'Frame 151'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ddd6fe']
+            [TEXT] 'Caption' | Fills: ['#ddd6fe'] | Text: 'Caption'
+        [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'Text'
+
+==================== Buttons -> [FRAME] Emoji button (id: 46:4296) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Safety button' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['--uedp-primary-50']
+      [INSTANCE] 'Safe'
+        [TEXT] '😁' | Fills: ['#000000'] | Text: '😁'
+      [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Safe'
+    [COMPONENT] 'State=Hover' | Fills: ['#8b5cf6']
+      [INSTANCE] 'Safe'
+        [TEXT] '😁' | Fills: ['#000000'] | Text: '😁'
+      [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Safe'
+    [COMPONENT] 'State=Press' | Fills: ['#8b5cf6'] | Strokes: ['#c4b5fd']
+      [INSTANCE] 'Safe'
+        [TEXT] '😁' | Fills: ['#000000'] | Text: '😁'
+      [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Safe'
+    [COMPONENT] 'State=Disable' | Fills: ['#ddd6fe'] | Strokes: ['#c4b5fd']
+      [INSTANCE] 'Safe'
+        [TEXT] '😁' | Fills: ['#1d1b20'] | Text: '😁'
+      [TEXT] 'Safe' | Fills: ['#c4b5fd'] | Text: 'Safe'
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Hover' | Fills: ['#131927'] | Text: 'Hover'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+
+==================== Buttons -> [FRAME] Switch (id: 46:4364) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Switch' | Strokes: ['#8a38f5']
+    [COMPONENT] 'Property 1=On'
+      [FRAME] 'ON' | Fills: ['--uedp-primary-300'] | Strokes: ['--uedp-primary-600']
+        [ELLIPSE] 'Ellipse 47' | Fills: ['--uedp-primary-600']
+    [COMPONENT] 'Property 1=Off'
+      [FRAME] 'Off' | Fills: ['--uedp-primary-500'] | Strokes: ['--uedp-primary-300']
+        [ELLIPSE] 'Ellipse 47' | Fills: ['--uedp-primary-300']
+  [TEXT] 'On' | Fills: ['#000000'] | Text: 'On'
+  [TEXT] 'Off' | Fills: ['#000000'] | Text: 'Off'
+
+==================== Buttons -> [FRAME] Radio button (id: 46:4312) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'State'
+    [TEXT] 'Unselected' | Fills: ['#131927'] | Text: 'Unselected'
+    [TEXT] 'Selected' | Fills: ['#131927'] | Text: 'Selected'
+  [COMPONENT_SET] 'Radial button' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Unselected'
+      [ELLIPSE] 'Ellipse 15' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+    [COMPONENT] 'selected'
+      [ELLIPSE] 'Ellipse 19' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+      [ELLIPSE] 'Ellipse 20' | Fills: ['--uedp-primary-600']
+
+==================== Text fields -> [FRAME] Text fields (id: 46:4415) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Component 1' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['--uedp-primary-100'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-400']
+          [TEXT] 'Fill me' | Fills: ['--uedp-primary-500'] | Text: 'Fill me'
+    [COMPONENT] 'State=Disabled'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['#c4b5fd'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['#ddd6fe']
+          [TEXT] 'Fill me' | Fills: ['#c4b5fd'] | Text: 'Fill me'
+    [COMPONENT] 'State=Error'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['#f43f5e'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['#ffe4e6'] | Strokes: ['#f43f5e']
+          [TEXT] 'Something' | Fills: ['#f43f5e'] | Text: 'Something'
+      [TEXT] 'Error text' | Fills: ['#f43f5e'] | Text: 'Error text'
+    [COMPONENT] 'State=Pressed'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['--uedp-primary-100'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-500'] | Strokes: ['--uedp-primary-600']
+          [TEXT] 'Fill me' | Fills: ['--uedp-primary-400'] | Text: 'Fill me'
+    [COMPONENT] 'State=Fillled'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['--uedp-primary-100'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-500'] | Strokes: ['--uedp-primary-600']
+          [TEXT] 'Something' | Fills: ['--uedp-primary-100'] | Text: 'Something'
+    [COMPONENT] 'State=Active'
+      [GROUP] 'Group 188'
+        [TEXT] 'Heading' | Fills: ['--uedp-primary-100'] | Text: 'Heading'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-500'] | Strokes: ['--uedp-primary-600']
+          [TEXT] 'Something' | Fills: ['--uedp-primary-100'] | Text: 'Something'
+          [VECTOR] 'Vector 1' | Strokes: ['#000000']
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Filled' | Fills: ['#131927'] | Text: 'Filled'
+    [TEXT] 'Active' | Fills: ['#131927'] | Text: 'Active'
+    [TEXT] 'Disabled' | Fills: ['#131927'] | Text: 'Disabled'
+    [TEXT] 'Error' | Fills: ['#131927'] | Text: 'Error'
+
+==================== Navigation Bar -> [FRAME] Navigation bar (id: 51:205) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'Frame 16'
+    [FRAME] 'Frame 19' | Fills: ['#faf5ff']
+      [INSTANCE] 'ph:house-fill'
+        [VECTOR] 'Vector' | Fills: ['#362061']
+    [TEXT] 'Home' | Fills: ['#362061'] | Text: 'Home'
+  [FRAME] 'Frame 17'
+    [FRAME] 'Frame 20' | Fills: ['#ffffff']
+      [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [TEXT] 'Travel' | Fills: ['--uedp-primary-100'] | Text: 'Travel'
+  [FRAME] 'Frame 18'
+    [FRAME] 'Frame 21' | Fills: ['#ffffff']
+      [INSTANCE] 'bi:people-fill'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [TEXT] 'Community' | Fills: ['--uedp-primary-100'] | Text: 'Community'
+  [COMPONENT_SET] 'Navigation bar' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Inactive' | Fills: ['--uedp-primary-300']
+      [FRAME] 'Frame 11' | Fills: ['#ff3737']
+        [TEXT] 'SOS' | Fills: ['#ffffff'] | Text: 'SOS'
+      [FRAME] 'Frame 12'
+        [INSTANCE] 'ph:house-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Home' | Fills: ['--uedp-primary-600'] | Text: 'Home'
+      [FRAME] 'Frame 13'
+        [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Travel' | Fills: ['--uedp-primary-600'] | Text: 'Travel'
+      [FRAME] 'Frame 14'
+        [INSTANCE] 'bi:people-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Community' | Fills: ['--uedp-primary-600'] | Text: 'Community'
+      [FRAME] 'Frame 15'
+        [INSTANCE] 'fa-solid:hands-helping'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Help' | Fills: ['--uedp-primary-600'] | Text: 'Help'
+    [COMPONENT] 'State=Help' | Fills: ['--uedp-primary-300']
+      [FRAME] 'Frame 19'
+        [FRAME] 'Frame 21' | Fills: ['#ffffff']
+          [INSTANCE] 'fa-solid:hands-helping'
+            [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Help' | Fills: ['--uedp-primary-100'] | Text: 'Help'
+      [FRAME] 'Frame 11' | Fills: ['#ff3737']
+        [TEXT] 'SOS' | Fills: ['#ffffff'] | Text: 'SOS'
+      [FRAME] 'Frame 12'
+        [INSTANCE] 'ph:house-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Home' | Fills: ['--uedp-primary-600'] | Text: 'Home'
+      [FRAME] 'Frame 13'
+        [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Travel' | Fills: ['--uedp-primary-600'] | Text: 'Travel'
+      [FRAME] 'Frame 14'
+        [INSTANCE] 'bi:people-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Community' | Fills: ['--uedp-primary-600'] | Text: 'Community'
+    [COMPONENT] 'State=Community' | Fills: ['--uedp-primary-300']
+      [FRAME] 'Frame 11' | Fills: ['#ff3737']
+        [TEXT] 'SOS' | Fills: ['#ffffff'] | Text: 'SOS'
+      [FRAME] 'Frame 12'
+        [INSTANCE] 'ph:house-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Home' | Fills: ['--uedp-primary-600'] | Text: 'Home'
+      [FRAME] 'Frame 13'
+        [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Travel' | Fills: ['--uedp-primary-600'] | Text: 'Travel'
+      [FRAME] 'Frame 18'
+        [FRAME] 'Frame 21' | Fills: ['#ffffff']
+          [INSTANCE] 'bi:people-fill'
+            [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Community' | Fills: ['--uedp-primary-100'] | Text: 'Community'
+      [FRAME] 'Frame 15'
+        [INSTANCE] 'fa-solid:hands-helping'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Help' | Fills: ['--uedp-primary-600'] | Text: 'Help'
+    [COMPONENT] 'State=Travel' | Fills: ['--uedp-primary-300']
+      [FRAME] 'Frame 11' | Fills: ['#ff3737']
+        [TEXT] 'SOS' | Fills: ['#ffffff'] | Text: 'SOS'
+      [FRAME] 'Frame 12'
+        [INSTANCE] 'ph:house-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Home' | Fills: ['--uedp-primary-600'] | Text: 'Home'
+      [FRAME] 'Frame 17'
+        [FRAME] 'Frame 20' | Fills: ['#ffffff']
+          [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+            [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Travel' | Fills: ['--uedp-primary-100'] | Text: 'Travel'
+      [FRAME] 'Frame 14'
+        [INSTANCE] 'bi:people-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Community' | Fills: ['--uedp-primary-600'] | Text: 'Community'
+      [FRAME] 'Frame 15'
+        [INSTANCE] 'fa-solid:hands-helping'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Help' | Fills: ['--uedp-primary-600'] | Text: 'Help'
+    [COMPONENT] 'State=Home' | Fills: ['--uedp-primary-300']
+      [FRAME] 'Frame 11' | Fills: ['#ff3737']
+        [TEXT] 'SOS' | Fills: ['#ffffff'] | Text: 'SOS'
+      [FRAME] 'Frame 16'
+        [FRAME] 'Frame 19' | Fills: ['#faf5ff']
+          [INSTANCE] 'ph:house-fill'
+            [VECTOR] 'Vector' | Fills: ['#362061']
+        [TEXT] 'Home' | Fills: ['#362061'] | Text: 'Home'
+      [FRAME] 'Frame 13'
+        [INSTANCE] 'material-symbols:travel-luggage-and-bags-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Travel' | Fills: ['--uedp-primary-600'] | Text: 'Travel'
+      [FRAME] 'Frame 14'
+        [INSTANCE] 'bi:people-fill'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Community' | Fills: ['--uedp-primary-600'] | Text: 'Community'
+      [FRAME] 'Frame 15'
+        [INSTANCE] 'fa-solid:hands-helping'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-600']
+        [TEXT] 'Help' | Fills: ['--uedp-primary-600'] | Text: 'Help'
+  [FRAME] 'Frame 19'
+    [FRAME] 'Frame 21' | Fills: ['#ffffff']
+      [INSTANCE] 'fa-solid:hands-helping'
+        [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+    [TEXT] 'Help' | Fills: ['--uedp-primary-100'] | Text: 'Help'
+  [FRAME] 'State'
+    [TEXT] 'Inactive' | Fills: ['#131927'] | Text: 'Inactive'
+    [TEXT] 'Home' | Fills: ['#131927'] | Text: 'Home'
+    [TEXT] 'Travel' | Fills: ['#131927'] | Text: 'Travel'
+    [TEXT] 'Community' | Fills: ['#131927'] | Text: 'Community'
+    [TEXT] 'Help' | Fills: ['#131927'] | Text: 'Help'
+
+==================== Verification code -> [FRAME] Verification code (id: 52:5013) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Active' | Fills: ['#131927'] | Text: 'Active'
+    [TEXT] 'Filled' | Fills: ['#131927'] | Text: 'Filled'
+    [TEXT] 'Error' | Fills: ['#131927'] | Text: 'Error'
+  [COMPONENT_SET] 'Component 1' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Pressed'
+      [FRAME] 'Frame 6'
+        [TEXT] 'Verification code sent' | Fills: ['--uedp-primary-100'] | Text: 'Verification code sent'
+        [TEXT] 'Send another code 30s' | Fills: ['--uedp-primary-100'] | Text: 'Send another code 30s'
+      [FRAME] 'Frame 7'
+        [FRAME] 'Frame 1' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 3' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 4' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 5' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+    [COMPONENT] 'State=Default'
+      [FRAME] 'Frame 6'
+        [TEXT] 'Verification code sent' | Fills: ['--uedp-primary-100'] | Text: 'Verification code sent'
+        [TEXT] 'Send another code 30s' | Fills: ['--uedp-primary-100'] | Text: 'Send another code 30s'
+      [FRAME] 'Frame 7'
+        [FRAME] 'Frame 1' | Fills: ['#ede9fe']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 2' | Fills: ['#ede9fe']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 3' | Fills: ['#ede9fe']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 4' | Fills: ['#ede9fe']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 5' | Fills: ['#ede9fe']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+    [COMPONENT] 'State=Filled'
+      [FRAME] 'Frame 6'
+        [TEXT] 'Verification code sent' | Fills: ['--uedp-primary-100'] | Text: 'Verification code sent'
+        [TEXT] 'Send another code 30s' | Fills: ['--uedp-primary-100'] | Text: 'Send another code 30s'
+      [FRAME] 'Frame 7'
+        [FRAME] 'Frame 1' | Fills: ['--uedp-primary-400']
+          [TEXT] '5' | Fills: ['--uedp-primary-100'] | Text: '5'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-400']
+          [TEXT] '4' | Fills: ['--uedp-primary-100'] | Text: '4'
+        [FRAME] 'Frame 3' | Fills: ['--uedp-primary-400']
+          [TEXT] '6' | Fills: ['--uedp-primary-100'] | Text: '6'
+        [FRAME] 'Frame 4' | Fills: ['--uedp-primary-400']
+          [TEXT] '3' | Fills: ['--uedp-primary-100'] | Text: '3'
+        [FRAME] 'Frame 5' | Fills: ['--uedp-primary-400']
+          [TEXT] '8' | Fills: ['--uedp-primary-100'] | Text: '8'
+    [COMPONENT] 'State=Error'
+      [FRAME] 'Frame 6'
+        [TEXT] 'Verification code sent' | Fills: ['--uedp-primary-100'] | Text: 'Verification code sent'
+        [TEXT] 'Send another code 30s' | Fills: ['--uedp-primary-100'] | Text: 'Send another code 30s'
+      [FRAME] 'Frame 7'
+        [FRAME] 'Frame 1' | Fills: ['#fecdd3'] | Strokes: ['#e11d48']
+          [TEXT] '5' | Fills: ['--uedp-primary-100'] | Text: '5'
+        [FRAME] 'Frame 2' | Fills: ['#fecdd3'] | Strokes: ['#e11d48']
+          [TEXT] '4' | Fills: ['--uedp-primary-100'] | Text: '4'
+        [FRAME] 'Frame 3' | Fills: ['#fecdd3'] | Strokes: ['#e11d48']
+          [TEXT] '6' | Fills: ['--uedp-primary-100'] | Text: '6'
+        [FRAME] 'Frame 4' | Fills: ['#fecdd3'] | Strokes: ['#e11d48']
+          [TEXT] '3' | Fills: ['--uedp-primary-100'] | Text: '3'
+        [FRAME] 'Frame 5' | Fills: ['#fecdd3'] | Strokes: ['#e11d48']
+          [TEXT] '8' | Fills: ['--uedp-primary-100'] | Text: '8'
+      [TEXT] 'Incorrect code' | Fills: ['#e11d48'] | Text: 'Incorrect code'
+    [COMPONENT] 'State=Active'
+      [FRAME] 'Frame 6'
+        [TEXT] 'Verification code sent' | Fills: ['--uedp-primary-100'] | Text: 'Verification code sent'
+        [TEXT] 'Send another code 30s' | Fills: ['--uedp-primary-100'] | Text: 'Send another code 30s'
+      [FRAME] 'Frame 7'
+        [FRAME] 'Frame 1' | Fills: ['--uedp-primary-400']
+          [TEXT] '5' | Fills: ['--uedp-primary-100'] | Text: '5'
+        [FRAME] 'Frame 2' | Fills: ['--uedp-primary-400']
+          [TEXT] '4' | Fills: ['--uedp-primary-100'] | Text: '4'
+        [FRAME] 'Frame 3' | Fills: ['--uedp-primary-400']
+          [VECTOR] 'Vector 1' | Strokes: ['#000000']
+        [FRAME] 'Frame 4' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+        [FRAME] 'Frame 5' | Fills: ['--uedp-primary-400']
+          [TEXT] '0' | Fills: ['--uedp-primary-600'] | Text: '0'
+
+==================== Hamburger menu -> [COMPONENT] Hamburger (id: 52:5071) ====================
+  [RECTANGLE] 'Rectangle 170' | Fills: ['--uedp-primary-100']
+  [INSTANCE] 'basil:cross-solid'
+    [VECTOR] 'Vector' | Fills: ['#ffffff']
+  [FRAME] 'Frame 39377'
+    [FRAME] 'Frame 28'
+      [INSTANCE] 'boxicons:user-filled'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Profile' | Fills: ['#ffffff'] | Text: 'Profile'
+    [FRAME] 'Frame 39376'
+      [INSTANCE] 'mynaui:accessibility-solid'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Accessibility' | Fills: ['#ffffff'] | Text: 'Accessibility'
+      [INSTANCE] 'uil:arrow'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [FRAME] 'Frame 30'
+      [INSTANCE] 'ic:round-battery-saver'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Low battery mode' | Fills: ['#ffffff'] | Text: 'Low battery mode'
+    [FRAME] 'Frame 31'
+      [INSTANCE] 'pepicons-pop:rewind-time-circle-filled'
+        [GROUP] 'Group'
+          [GROUP] 'Mask group'
+            [GROUP] 'Group'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: ['#000000']
+                [VECTOR] 'Vector' | Fills: ['#000000']
+                [VECTOR] 'Vector' | Fills: ['#000000']
+                [VECTOR] 'Vector' | Fills: ['#000000']
+            [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Timely check in' | Fills: ['#ffffff'] | Text: 'Timely check in'
+    [FRAME] 'Frame 32'
+      [INSTANCE] 'wordpress:offline'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Offline mode' | Fills: ['#ffffff'] | Text: 'Offline mode'
+    [FRAME] 'Frame 33'
+      [INSTANCE] 'fluent:shield-person-20-filled'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Volunteer' | Fills: ['#ffffff'] | Text: 'Volunteer '
+    [FRAME] 'Frame 34'
+      [INSTANCE] 'icon-park-solid:setting-two'
+        [GROUP] 'Mask group'
+          [GROUP] 'Group'
+            [GROUP] 'Group'
+              [VECTOR] 'Vector' | Fills: ['#ffffff'] | Strokes: ['#ffffff']
+              [VECTOR] 'Vector' | Fills: ['#000000'] | Strokes: ['#000000']
+          [VECTOR] 'Vector' | Fills: ['#ffffff']
+      [TEXT] 'Settings' | Fills: ['#ffffff'] | Text: 'Settings'
+
+==================== Dropdown menu -> [FRAME] Dropdown menu (id: 52:5138) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Dropdown menu' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Closed' | Fills: ['#8b5cf6']
+      [TEXT] 'Choose destination' | Fills: ['#ffffff'] | Text: 'Choose destination'
+      [INSTANCE] 'uil:arrow'
+        [VECTOR] 'Vector' | Fills: ['#ffffff']
+    [COMPONENT] 'State=open'
+      [RECTANGLE] 'Rectangle 181' | Fills: ['#8b5cf6']
+      [GROUP] 'Group 39358'
+        [FRAME] 'Frame 151'
+          [FRAME] 'Frame 150'
+            [TEXT] 'Search destination' | Fills: ['#ffffff'] | Text: 'Search destination'
+            [INSTANCE] 'uil:arrow'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+          [LINE] 'Line 15' | Strokes: ['#a78bfa']
+          [TEXT] 'Pune' | Fills: ['#ffffff'] | Text: 'Pune'
+          [LINE] 'Line 16' | Strokes: ['#a78bfa']
+          [TEXT] 'Mumbai' | Fills: ['#ffffff'] | Text: 'Mumbai'
+          [LINE] 'Line 17' | Strokes: ['#a78bfa']
+          [TEXT] 'Nagpur' | Fills: ['#ffffff'] | Text: 'Nagpur'
+          [LINE] 'Line 18' | Strokes: ['#a78bfa']
+          [TEXT] 'Shimla' | Fills: ['#ffffff'] | Text: 'Shimla'
+          [LINE] 'Line 19' | Strokes: ['#a78bfa']
+          [TEXT] 'Jaipur' | Fills: ['#ffffff'] | Text: 'Jaipur'
+          [LINE] 'Line 21' | Strokes: ['#a78bfa']
+          [TEXT] 'Hyderabad' | Fills: ['#ffffff'] | Text: 'Hyderabad'
+          [LINE] 'Line 20' | Strokes: ['#a78bfa']
+          [TEXT] 'Delhi' | Fills: ['#ffffff'] | Text: 'Delhi'
+          [LINE] 'Line 22' | Strokes: ['#a78bfa']
+          [TEXT] 'Pondicherry' | Fills: ['#ffffff'] | Text: 'Pondicherry'
+          [LINE] 'Line 23' | Strokes: ['#a78bfa']
+          [TEXT] 'Gokarna' | Fills: ['#ffffff'] | Text: 'Gokarna'
+          [LINE] 'Line 24' | Strokes: ['#a78bfa']
+    [COMPONENT] 'State=Select'
+      [RECTANGLE] 'Rectangle 181' | Fills: ['#8b5cf6']
+      [RECTANGLE] 'Rectangle 182' | Fills: ['--uedp-primary-500']
+      [GROUP] 'Group 39358'
+        [FRAME] 'Frame 151'
+          [FRAME] 'Frame 150'
+            [TEXT] 'Search destination' | Fills: ['#ffffff'] | Text: 'Search destination'
+            [INSTANCE] 'uil:arrow'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+          [LINE] 'Line 15' | Strokes: ['#a78bfa']
+          [TEXT] 'Pune' | Fills: ['#ffffff'] | Text: 'Pune'
+          [LINE] 'Line 16' | Strokes: ['#a78bfa']
+          [TEXT] 'Mumbai' | Fills: ['#ffffff'] | Text: 'Mumbai'
+          [LINE] 'Line 17' | Strokes: ['#a78bfa']
+          [TEXT] 'Nagpur' | Fills: ['#ffffff'] | Text: 'Nagpur'
+          [LINE] 'Line 18' | Strokes: ['#a78bfa']
+          [TEXT] 'Shimla' | Fills: ['#ffffff'] | Text: 'Shimla'
+          [LINE] 'Line 19' | Strokes: ['#a78bfa']
+          [TEXT] 'Jaipur' | Fills: ['#ffffff'] | Text: 'Jaipur'
+          [LINE] 'Line 21' | Strokes: ['#a78bfa']
+          [TEXT] 'Hyderabad' | Fills: ['#ffffff'] | Text: 'Hyderabad'
+          [LINE] 'Line 20' | Strokes: ['#a78bfa']
+          [TEXT] 'Delhi' | Fills: ['#ffffff'] | Text: 'Delhi'
+          [LINE] 'Line 22' | Strokes: ['#a78bfa']
+          [TEXT] 'Pondicherry' | Fills: ['#ffffff'] | Text: 'Pondicherry'
+          [LINE] 'Line 23' | Strokes: ['#a78bfa']
+          [TEXT] 'Gokarna' | Fills: ['#ffffff'] | Text: 'Gokarna'
+          [LINE] 'Line 24' | Strokes: ['#a78bfa']
+
+==================== Search bar -> [FRAME] Search bar (id: 52:5176) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [FRAME] 'State'
+    [TEXT] 'Default' | Fills: ['#131927'] | Text: 'Default'
+    [TEXT] 'Press' | Fills: ['#131927'] | Text: 'Press'
+    [TEXT] 'Active' | Fills: ['#131927'] | Text: 'Active'
+    [TEXT] 'Filled' | Fills: ['#131927'] | Text: 'Filled'
+  [FRAME] 'Frame 4'
+    [COMPONENT_SET] 'Component 1' | Strokes: ['#8a38f5']
+      [COMPONENT] 'State=Default'
+        [RECTANGLE] 'Rectangle 80' | Fills: ['--uedp-primary-400']
+        [TEXT] 'Search city' | Fills: ['--uedp-primary-600'] | Text: 'Search city'
+        [INSTANCE] 'material-symbols:mic-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [COMPONENT] 'State=Pressed'
+        [RECTANGLE] 'Rectangle 80' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Search city' | Fills: ['--uedp-primary-600'] | Text: 'Search city'
+        [INSTANCE] 'material-symbols:mic-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [COMPONENT] 'State=Active'
+        [RECTANGLE] 'Rectangle 80' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-600']
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Symbio' | Fills: ['--uedp-primary-100'] | Text: 'Symbio'
+            [VECTOR] 'Vector 1' | Strokes: ['#000000']
+          [INSTANCE] 'material-symbols:mic-rounded'
+            [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+      [COMPONENT] 'State=Filled'
+        [RECTANGLE] 'Rectangle 80' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Symbiosis' | Fills: ['--uedp-primary-100'] | Text: 'Symbiosis'
+        [INSTANCE] 'material-symbols:mic-rounded'
+          [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+
+==================== Article thumbnail -> [FRAME] Article thumbnail (id: 52:4614) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] 'Purple girl '
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to navigate safely' | Fills: ['#ffffff'] | Text: 'How to navigate safely'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] 'Purple girl '
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to navigate safely' | Fills: ['#ffffff'] | Text: 'How to navigate safely'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] 'Subway '
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Safety tips for public transport' | Fills: ['#ffffff'] | Text: 'Safety tips for public transport'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] 'Subway '
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Safety tips for public transport' | Fills: ['#ffffff'] | Text: 'Safety tips for public transport'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] 'Frame 75'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to travel anxiety free' | Fills: ['#ffffff'] | Text: 'How to travel anxiety free'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] 'Frame 75'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to travel anxiety free' | Fills: ['#ffffff'] | Text: 'How to travel anxiety free'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] 'bb95362d62a2a12a6fc85521cecd6527 1'
+        [RECTANGLE] 'bb95362d62a2a12a6fc85521cecd6527 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to enjoy your own company' | Fills: ['#ffffff'] | Text: 'How to enjoy your own company'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] 'bb95362d62a2a12a6fc85521cecd6527 1'
+        [RECTANGLE] 'bb95362d62a2a12a6fc85521cecd6527 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to enjoy your own company' | Fills: ['#ffffff'] | Text: 'How to enjoy your own company'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] '75d08ce725e31aa69aa561c1bb7d569c 1'
+        [RECTANGLE] '75d08ce725e31aa69aa561c1bb7d569c 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Packing 101' | Fills: ['#ffffff'] | Text: 'Packing 101'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] '75d08ce725e31aa69aa561c1bb7d569c 1'
+        [RECTANGLE] '75d08ce725e31aa69aa561c1bb7d569c 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Packing 101' | Fills: ['#ffffff'] | Text: 'Packing 101'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] '5cd53c18d28f090698bab61c1268bc69 1'
+        [RECTANGLE] '5cd53c18d28f090698bab61c1268bc69 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to crush men' | Fills: ['#ffffff'] | Text: 'How to crush men'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] '5cd53c18d28f090698bab61c1268bc69 1'
+        [RECTANGLE] '5cd53c18d28f090698bab61c1268bc69 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'How to crush men' | Fills: ['#ffffff'] | Text: 'How to crush men'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] '4d05fc288cbddb17674d06b71ab798cc 1'
+        [RECTANGLE] '4d05fc288cbddb17674d06b71ab798cc 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Don’t stress about planning' | Fills: ['#ffffff'] | Text: 'Don’t stress about planning'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] '4d05fc288cbddb17674d06b71ab798cc 1'
+        [RECTANGLE] '4d05fc288cbddb17674d06b71ab798cc 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Don’t stress about planning' | Fills: ['#ffffff'] | Text: 'Don’t stress about planning'
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] 'Group 1'
+        [RECTANGLE] 'Rectangle 176' | Fills: ['#cf85db']
+        [RECTANGLE] '9bb4f8aadda67a3a811808bc7fbafa5a-Photoroom 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Karate 101' | Fills: ['#ffffff'] | Text: 'Karate 101 '
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] 'Group 1'
+        [RECTANGLE] 'Rectangle 176' | Fills: ['#cf85db']
+        [RECTANGLE] '9bb4f8aadda67a3a811808bc7fbafa5a-Photoroom 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Karate 101' | Fills: ['#ffffff'] | Text: 'Karate 101 '
+  [COMPONENT_SET] 'Default' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=Default' | Fills: ['#ffffff']
+      [INSTANCE] '780c5c7c0888ecdeda7473f251b3b935 1'
+        [RECTANGLE] '780c5c7c0888ecdeda7473f251b3b935 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Basic self defense' | Fills: ['#ffffff'] | Text: 'Basic self defense'
+    [COMPONENT] 'State=Press' | Fills: ['#ffffff'] | Strokes: ['#8b5cf6']
+      [INSTANCE] '780c5c7c0888ecdeda7473f251b3b935 1'
+        [RECTANGLE] '780c5c7c0888ecdeda7473f251b3b935 1'
+      [FRAME] 'Frame 147' | Fills: ['--uedp-primary-100']
+        [TEXT] 'Basic self defense' | Fills: ['#ffffff'] | Text: 'Basic self defense'
+
+==================== Location card  -> [FRAME] Location card 1 (id: 51:4534) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Location card ' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=default' | Fills: ['--uedp-primary-300']
+      [RECTANGLE] 'image 39'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Mrug Crafts' | Fills: ['#362061'] | Text: 'Mrug Crafts'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+    [COMPONENT] 'State=Press' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-50']
+      [RECTANGLE] 'image 39'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Mrug Crafts' | Fills: ['#362061'] | Text: 'Mrug Crafts'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+  [FRAME] 'Frame 6'
+    [TEXT] 'Default' | Fills: ['#000000'] | Text: 'Default'
+    [TEXT] 'Presssed' | Fills: ['#000000'] | Text: 'Presssed'
+
+==================== Location card  -> [FRAME] Location card 2  (id: 53:4413) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Location card ' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=default' | Fills: ['--uedp-primary-300']
+      [INSTANCE] 'image 4'
+        [RECTANGLE] 'image 4'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Enspire reading spaces' | Fills: ['#362061'] | Text: 'Enspire reading spaces'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+    [COMPONENT] 'State=Press' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-50']
+      [INSTANCE] 'image 4'
+        [RECTANGLE] 'image 4'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Enspire reading spaces' | Fills: ['#362061'] | Text: 'Enspire reading spaces'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+  [FRAME] 'Frame 6'
+    [TEXT] 'Default' | Fills: ['#000000'] | Text: 'Default'
+    [TEXT] 'Presssed' | Fills: ['#000000'] | Text: 'Presssed'
+
+==================== Location card  -> [FRAME] Location card 3  (id: 53:4468) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Location card ' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=default' | Fills: ['--uedp-primary-300']
+      [INSTANCE] 'image 38'
+        [RECTANGLE] 'image 38'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Ajit bakery' | Fills: ['#362061'] | Text: 'Ajit bakery'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+    [COMPONENT] 'State=Press' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-50']
+      [INSTANCE] 'image 38'
+        [RECTANGLE] 'image 38'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Ajit bakery' | Fills: ['#362061'] | Text: 'Ajit bakery'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+  [FRAME] 'Frame 6'
+    [TEXT] 'Default' | Fills: ['#000000'] | Text: 'Default'
+    [TEXT] 'Presssed' | Fills: ['#000000'] | Text: 'Presssed'
+
+==================== Location card  -> [FRAME] Location card 4 (id: 53:4525) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Location card ' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=default' | Fills: ['--uedp-primary-300']
+      [INSTANCE] 'image 40'
+        [RECTANGLE] 'image 40'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Umred park' | Fills: ['#362061'] | Text: 'Umred park'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+    [COMPONENT] 'State=Press' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-50']
+      [INSTANCE] 'image 40'
+        [RECTANGLE] 'image 40'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Umred park' | Fills: ['#362061'] | Text: 'Umred park'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+  [FRAME] 'Frame 6'
+    [TEXT] 'Default' | Fills: ['#000000'] | Text: 'Default'
+    [TEXT] 'Presssed' | Fills: ['#000000'] | Text: 'Presssed'
+
+==================== Location card  -> [FRAME] Location card 5 (id: 53:4582) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT_SET] 'Location card ' | Strokes: ['#8a38f5']
+    [COMPONENT] 'State=default' | Fills: ['--uedp-primary-300']
+      [INSTANCE] 'image 42'
+        [RECTANGLE] 'image 42'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Jhilpi lake' | Fills: ['#362061'] | Text: 'Jhilpi lake'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+    [COMPONENT] 'State=Press' | Fills: ['--uedp-primary-400'] | Strokes: ['--uedp-primary-50']
+      [INSTANCE] 'image 42'
+        [RECTANGLE] 'image 42'
+      [FRAME] 'Frame 5'
+        [TEXT] 'Jhilpi lake' | Fills: ['#362061'] | Text: 'Jhilpi lake'
+        [FRAME] 'Frame 4'
+          [TEXT] 'Safety score' | Fills: ['#5f507e'] | Text: 'Safety score'
+          [FRAME] 'Frame 3'
+            [TEXT] '4.9' | Fills: ['#362061'] | Text: '4.9'
+            [INSTANCE] 'fluent-color:star-16'
+              [GROUP] 'Group'
+                [VECTOR] 'Vector' | Fills: [None]
+          [GROUP] 'Group 21'
+            [INSTANCE] 'solar:heart-bold'
+              [VECTOR] 'Vector' | Fills: ['#f4cf43']
+            [TEXT] 'woman owned' | Fills: ['#5f507e'] | Text: 'woman owned'
+        [TEXT] 'Craft center' | Fills: ['#5f507e'] | Text: 'Craft center'
+        [FRAME] 'Frame 2'
+          [FRAME] 'Frame 1'
+            [TEXT] 'Open' | Fills: ['#0e9837'] | Text: 'Open'
+            [TEXT] '.' | Fills: ['#5f507e'] | Text: '.'
+            [TEXT] 'Closes 22:30' | Fills: ['#5f507e'] | Text: 'Closes 22:30'
+          [TEXT] '8 km' | Fills: ['#5f507e'] | Text: '8 km'
+  [FRAME] 'Frame 6'
+    [TEXT] 'Default' | Fills: ['#000000'] | Text: 'Default'
+    [TEXT] 'Presssed' | Fills: ['#000000'] | Text: 'Presssed'
+
+==================== Location card  -> [COMPONENT] image 42 (id: 53:4190) ====================
+  [RECTANGLE] 'image 42'
+
+==================== Location card  -> [COMPONENT] image 40 (id: 53:4191) ====================
+  [RECTANGLE] 'image 40'
+
+==================== Location card  -> [COMPONENT] image 38 (id: 53:4192) ====================
+  [RECTANGLE] 'image 38'
+
+==================== Location card  -> [COMPONENT] image 4 (id: 53:4193) ====================
+  [RECTANGLE] 'image 4'
+
+==================== Location card  -> [COMPONENT] image 39 (id: 53:4199) ====================
+  [RECTANGLE] 'image 39'
+
+==================== Questionnaire card -> [FRAME] Questionnaire card (id: 47:4496) ====================
+Root Fills: [{'hex': '#ffffff', 'var': None, 'var_hex': None}]
+  [COMPONENT] 'Questionnaire card' | Fills: ['--uedp-primary-300']
+    [TEXT] '1. How do u usually travel?' | Fills: ['--uedp-primary-100'] | Text: '1. How do u usually travel?'
+    [FRAME] 'Frame 5'
+      [FRAME] 'Frame 1'
+        [INSTANCE] 'Radial button'
+          [ELLIPSE] 'Ellipse 15' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Option1' | Fills: ['--uedp-primary-100'] | Text: 'Option1'
+      [FRAME] 'Frame 2'
+        [INSTANCE] 'Radial button'
+          [ELLIPSE] 'Ellipse 15' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Option2' | Fills: ['--uedp-primary-100'] | Text: 'Option2'
+      [FRAME] 'Frame 3'
+        [INSTANCE] 'Radial button'
+          [ELLIPSE] 'Ellipse 15' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Option3' | Fills: ['--uedp-primary-100'] | Text: 'Option3'
+      [FRAME] 'Frame 4'
+        [INSTANCE] 'Radial button'
+          [ELLIPSE] 'Ellipse 15' | Fills: ['#ede9fe'] | Strokes: ['--uedp-primary-600']
+        [TEXT] 'Option4' | Fills: ['--uedp-primary-100'] | Text: 'Option4'
+
+==================== Arrival card -> [COMPONENT] Arrival card (id: 52:5981) ====================
+Root Fills: [{'hex': '#5b21b6', 'var': None, 'var_hex': None}]
+  [TEXT] 'You reached your destination safe.' | Fills: ['#a78bfa'] | Text: 'You reached your destination safe.'
+  [GROUP] 'Group 16'
+    [GROUP] 'Group 8'
+      [RECTANGLE] 'Rectangle 82' | Fills: ['#ddd6fe']
+    [INSTANCE] 'basil:cross-solid'
+      [VECTOR] 'Vector' | Fills: ['#362061']
+  [RECTANGLE] 'Rectangle 85' | Fills: ['#ddd6fe']
+  [TEXT] 'You’ve arrived!' | Fills: ['#eab308'] | Text: 'You’ve arrived!'
+  [GROUP] 'Group 281'
+    [RECTANGLE] 'Rectangle 172' | Fills: ['#3e2a64']
+    [TEXT] 'Mrug Crafts' | Fills: ['#ddd6fe'] | Text: 'Mrug Crafts'
+    [ELLIPSE] 'Ellipse 14' | Fills: ['#eab308']
+  [GROUP] 'Group 193'
+    [GROUP] 'Group 190'
+      [TEXT] 'Trip time' | Fills: ['#a78bfa'] | Text: 'Trip time'
+      [TEXT] '5 min' | Fills: ['#eab308'] | Text: '5 min'
+    [GROUP] 'Group 191'
+      [TEXT] 'Distance' | Fills: ['#a78bfa'] | Text: 'Distance'
+      [TEXT] '700m' | Fills: ['#eab308'] | Text: '700m'
+    [GROUP] 'Group 192'
+      [TEXT] 'Safety score' | Fills: ['#a78bfa'] | Text: 'Safety score'
+      [TEXT] '3.9' | Fills: ['#eab308'] | Text: '3.9'
+    [LINE] 'Line 10' | Strokes: ['--uedp-primary-100']
+    [LINE] 'Line 11' | Strokes: ['--uedp-primary-100']
+  [GROUP] 'Group 204'
+    [RECTANGLE] 'Rectangle 175' | Fills: ['#3e2a64']
+    [FRAME] 'Frame 197'
+      [FRAME] 'Frame 2'
+        [TEXT] 'Safety check-in' | Fills: ['#ddd6fe'] | Text: 'Safety check-in'
+        [TEXT] 'Let your saathis know you’re ok' | Fills: ['#a78bfa'] | Text: 'Let your saathis know you’re ok'
+      [GROUP] 'Group 196'
+        [FRAME] 'Frame 1'
+          [INSTANCE] 'Buttons' | Fills: ['#ddd6fe']
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+            [TEXT] 'Text' | Fills: ['--uedp-primary-100'] | Text: 'I am safe'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['--uedp-primary-100']
+          [INSTANCE] 'Buttons' | Fills: ['#7c3aed']
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+            [TEXT] 'Text' | Fills: ['#ffffff'] | Text: 'Need help'
+            [INSTANCE] 'mdi:car-police'
+              [VECTOR] 'Vector' | Fills: ['#ffffff']
+  [INSTANCE] 'teenyicons:tick-circle-solid'
+    [VECTOR] 'Vector' | Fills: ['#eab308']
+  [TEXT] 'How was your route?' | Fills: ['#a78bfa'] | Text: 'How was your route?'
+  [INSTANCE] 'Safety button' | Fills: ['--uedp-primary-50']
+    [INSTANCE] 'Unsafe'
+      [TEXT] '😟' | Fills: ['#000000'] | Text: '😟'
+    [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Unsafe'
+  [INSTANCE] 'Safety button' | Fills: ['--uedp-primary-50']
+    [INSTANCE] 'OK'
+      [TEXT] '😐' | Fills: ['#000000'] | Text: '😐'
+    [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Ok'
+  [INSTANCE] 'Safety button' | Fills: ['--uedp-primary-50']
+    [INSTANCE] 'Report'
+      [TEXT] '🚨' | Fills: ['#000000'] | Text: '🚨'
+    [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Report'
+  [INSTANCE] 'Safety button' | Fills: ['--uedp-primary-50']
+    [INSTANCE] 'Safe'
+      [TEXT] '😁' | Fills: ['#000000'] | Text: '😁'
+    [TEXT] 'Safe' | Fills: ['#ede9fe'] | Text: 'Safe'
+
+==================== Incident heat map card -> [COMPONENT_SET] Incident heat map card (id: 42:7004) ====================
+Root Fills: [{'hex': '#dcdcdc', 'var': None, 'var_hex': None}]
+Root Strokes: [{'hex': '#8a38f5', 'var': None, 'var_hex': None}]
+  [COMPONENT] 'State=Default'
+    [RECTANGLE] 'Rectangle 190' | Fills: ['#ffffff']
+    [GROUP] 'Group 139'
+      [TEXT] 'Domestic Violence' | Fills: ['#3b0764'] | Text: 'Domestic Violence'
+      [TEXT] 'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission' | Fills: ['#3b0764'] | Text: 'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission'
+      [TEXT] 'Somalwada, Nagpur' | Fills: ['#3b0764'] | Text: 'Somalwada, Nagpur'
+      [TEXT] '20 June 2019, 6:00 pm - 12:00 am' | Fills: ['#3b0764'] | Text: '20 June 2019, 6:00 pm - 12:00 am'
+      [TEXT] 'View more' | Fills: ['#9333ea'] | Text: 'View more'
+      [INSTANCE] 'tdesign:location-filled'
+        [VECTOR] 'Vector' | Fills: ['#9333ea']
+      [INSTANCE] 'lets-icons:date-fill'
+        [GROUP] 'Group'
+          [VECTOR] 'Vector' | Fills: ['#9333ea']
+          [VECTOR] 'Vector' | Strokes: ['#9333ea']
+      [INSTANCE] 'basil:cross-solid'
+        [VECTOR] 'Vector' | Fills: ['#3b0764']
+  [COMPONENT] 'State=Hover'
+    [RECTANGLE] 'Rectangle 190' | Fills: ['--uedp-primary-200']
+    [GROUP] 'Group 139'
+      [TEXT] 'Domestic Violence' | Fills: ['#3b0764'] | Text: 'Domestic Violence'
+      [TEXT] 'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission' | Fills: ['#3b0764'] | Text: 'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission'
+      [TEXT] 'Somalwada, Nagpur' | Fills: ['#3b0764'] | Text: 'Somalwada, Nagpur'
+      [TEXT] '20 June 2019, 6:00 pm - 12:00 am' | Fills: ['#3b0764'] | Text: '20 June 2019, 6:00 pm - 12:00 am'
+      [TEXT] 'View more' | Fills: ['#9333ea'] | Text: 'View more'
+      [INSTANCE] 'tdesign:location-filled'
+        [VECTOR] 'Vector' | Fills: ['#9333ea']
+      [INSTANCE] 'lets-icons:date-fill'
+        [GROUP] 'Group'
+          [VECTOR] 'Vector' | Fills: ['#9333ea']
+          [VECTOR] 'Vector' | Strokes: ['#9333ea']
+      [INSTANCE] 'basil:cross-solid'
+        [VECTOR] 'Vector' | Fills: ['#3b0764']

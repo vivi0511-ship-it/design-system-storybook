@@ -1,0 +1,79 @@
+/* Icons Buttons CSS - Bound to Figma Tokens */
+
+.figma-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--uedp-radii-md, 8px);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  outline: none;
+}
+
+/* Sizes */
+.figma-icon-btn--tiny {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+}
+
+.figma-icon-btn--small {
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+}
+
+.figma-icon-btn--medium {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.figma-icon-btn--large {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+}
+
+.figma-icon-btn--giant {
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+}
+
+/* Types */
+.figma-icon-btn--primary {
+  background-color: var(--uedp-primary-600, #2563eb);
+  color: #ffffff;
+}
+
+.figma-icon-btn--primary:hover,
+.figma-icon-btn--primary.figma-icon-btn--state-hover {
+  background-color: var(--uedp-primary-700, #1d4ed8);
+}
+
+.figma-icon-btn--primary.figma-icon-btn--state-selected {
+  background-color: var(--uedp-primary-800, #1e40af);
+  box-shadow: 0 0 0 2px var(--uedp-primary-300, #93c5fd);
+}
+
+.figma-icon-btn--secondary {
+  background-color: var(--uedp-slate-800, #1e293b);
+  color: var(--uedp-primary-400, #60a5fa);
+  border-color: var(--uedp-slate-700, #334155);
+}
+
+.figma-icon-btn--tertiary {
+  background-color: transparent;
+  color: var(--uedp-slate-300, #cbd5e1);
+}
+
+.figma-icon-btn--disabled,
+.figma-icon-btn:disabled {
+  background-color: var(--uedp-slate-800, #1e293b) !important;
+  color: var(--uedp-slate-600, #475569) !important;
+  border-color: var(--uedp-slate-700, #334155) !important;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

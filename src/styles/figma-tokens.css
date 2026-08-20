@@ -1,0 +1,81 @@
+/* Auto-generated Figma Design Tokens CSS */
+/* Synchronized with com.figma.variableId mappings */
+
+:root {
+  --uedp-slate-50: #f8fafc;
+  --uedp-slate-100: #f1f5f9;
+  --uedp-slate-200: #e2e8f0;
+  --uedp-slate-300: #cbd5e1;
+  --uedp-slate-400: #94a3b8;
+  --uedp-slate-500: #64748b;
+  --uedp-slate-600: #475569;
+  --uedp-slate-700: #334155;
+  --uedp-slate-800: #1e293b;
+  --uedp-slate-900: #0f172a;
+  --uedp-slate-950: #020617;
+  --uedp-primary-50: #eff6ff;
+  --uedp-primary-100: #dbeafe;
+  --uedp-primary-200: #bfdbfe;
+  --uedp-primary-300: #93c5fd;
+  --uedp-primary-400: #60a5fa;
+  --uedp-primary-500: #3b82f6;
+  --uedp-primary-600: #2563eb;
+  --uedp-primary-700: #1d4ed8;
+  --uedp-primary-800: #1e40af;
+  --uedp-primary-900: #1e3a8a;
+  --uedp-emerald-50: #ecfdf5;
+  --uedp-emerald-100: #d1fae5;
+  --uedp-emerald-500: #10b981;
+  --uedp-emerald-600: #059669;
+  --uedp-emerald-700: #047857;
+  --uedp-amber-50: #fffbeb;
+  --uedp-amber-100: #fef3c7;
+  --uedp-amber-500: #f59e0b;
+  --uedp-amber-600: #d97706;
+  --uedp-rose-50: #fff1f2;
+  --uedp-rose-100: #ffe4e6;
+  --uedp-rose-500: #f43f5e;
+  --uedp-rose-600: #e11d48;
+  --uedp-spacing-0: 0px;
+  --uedp-spacing-1: 4px;
+  --uedp-spacing-2: 8px;
+  --uedp-spacing-3: 12px;
+  --uedp-spacing-4: 16px;
+  --uedp-spacing-5: 20px;
+  --uedp-spacing-6: 24px;
+  --uedp-spacing-8: 32px;
+  --uedp-spacing-10: 40px;
+  --uedp-spacing-12: 48px;
+  --uedp-radii-none: 0px;
+  --uedp-radii-sm: 4px;
+  --uedp-radii-md: 8px;
+  --uedp-radii-lg: 12px;
+  --uedp-radii-xl: 16px;
+  --uedp-radii-2xl: 24px;
+  --uedp-radii-3xl: 32px;
+  --uedp-radii-full: 9999px;
+  --uedp-geometry-border-width-sm: 1px;
+  --uedp-geometry-border-width-md: 2px;
+  --uedp-geometry-icon-sm: 16px;
+  --uedp-geometry-icon-md: 20px;
+  --uedp-geometry-icon-lg: 24px;
+  --uedp-typography-font-family-base: Inter, system-ui, -apple-system, sans-serif;
+  --uedp-typography-font-size-xs: 12px;
+  --uedp-typography-font-size-sm: 14px;
+  --uedp-typography-font-size-md: 16px;
+  --uedp-typography-font-size-lg: 18px;
+  --uedp-typography-font-size-xl: 20px;
+  --uedp-typography-font-size-2xl: 24px;
+  --uedp-typography-font-weight-regular: 400;
+  --uedp-typography-font-weight-medium: 500;
+  --uedp-typography-font-weight-semibold: 600;
+  --uedp-typography-font-weight-bold: 700;
+  --uedp-shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --uedp-shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --uedp-shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Aliases for quick binding */
+  --uedp-rounded-3xl: var(--uedp-radii-3xl, 32px);
+  --uedp-gap-4: var(--uedp-spacing-4, 16px);
+  --uedp-padding-6: var(--uedp-spacing-6, 24px);
+}

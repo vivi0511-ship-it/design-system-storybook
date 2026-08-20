@@ -1,0 +1,24 @@
+/* Hamburger CSS - Synchronized with Figma Node ID: 52:5071 */
+
+.figma-hamburger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--uedp-spacing-2, 8px);
+  background-color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Fill: --uedp-primary-100 */
+  border: 1px solid var(--uedp-primary-200, #bfdbfe);
+  border-radius: var(--uedp-radii-md, 8px);
+  color: var(--uedp-primary-700, #1d4ed8); /* Exact Vector Fill: #ffffff / Primary */
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.figma-hamburger:hover {
+  background-color: var(--uedp-primary-200, #bfdbfe);
+  color: var(--uedp-primary-900, #1e3a8a);
+}
+
+.figma-hamburger--open {
+  background-color: var(--uedp-primary-600, #2563eb);
+  color: #ffffff;
+}

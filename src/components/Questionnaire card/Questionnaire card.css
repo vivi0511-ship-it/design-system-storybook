@@ -1,0 +1,60 @@
+/* Questionnaire card CSS - Synchronized with Figma Node ID: 47:4495 */
+
+.figma-questionnaire {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-4, 16px);
+  background-color: var(--uedp-primary-300, #93c5fd); /* Exact Figma Fill: --uedp-primary-300 */
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: 20px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+}
+
+.figma-questionnaire__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.figma-questionnaire__title {
+  margin: 0;
+  font-size: var(--uedp-typography-font-size-md, 16px);
+  font-weight: var(--uedp-typography-font-weight-bold, 700);
+  color: #1e3a8a; /* Deep Primary Blue Text */
+  line-height: 1.4;
+}
+
+.figma-questionnaire__options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-2, 8px);
+}
+
+.figma-questionnaire__opt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background-color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Fill: --uedp-primary-100 */
+  border: 1px solid var(--uedp-primary-200, #bfdbfe);
+  border-radius: var(--uedp-radii-md, 8px);
+  color: #1e3a8a;
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.figma-questionnaire__opt:hover {
+  background-color: var(--uedp-primary-200, #bfdbfe);
+}
+
+.figma-questionnaire__opt--selected {
+  border-color: var(--uedp-primary-600, #2563eb);
+  background-color: #ffffff;
+  color: var(--uedp-primary-700, #1d4ed8);
+  font-weight: 700;
+}

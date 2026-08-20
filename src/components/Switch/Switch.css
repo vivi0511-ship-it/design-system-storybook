@@ -1,0 +1,70 @@
+/* Switch CSS - Synchronized with Figma Node ID: 42-7043 */
+
+.figma-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--uedp-spacing-2, 8px);
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+}
+
+.figma-switch input {
+  display: none;
+}
+
+/* Exact Figma Node 42:7043 Track Frame: 36px x 18px, Radius 20px, Stroke 1px */
+.figma-switch__track {
+  width: 36px;
+  height: 18px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  position: relative;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+/* Exact Figma Node 42:7043 Ellipse 47 Thumb: 10px x 10px */
+.figma-switch__thumb {
+  width: 100%;
+  height: 100%;
+  max-width: 10px;
+  max-height: 10px;
+  border-radius: 9999px;
+  position: absolute;
+  top: 3px;
+  transition: left 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/* Property 1=On (Node 42:7042): Fill VariableID:1:204, Stroke VariableID:1:207, PaddingLeft: 4px */
+.figma-switch__track--on {
+  background-color: var(--uedp-primary-300, #93c5fd);
+  border-color: var(--uedp-primary-600, #2563eb);
+}
+
+.figma-switch__track--on .figma-switch__thumb {
+  background-color: var(--uedp-primary-600, #2563eb);
+  left: 4px;
+}
+
+/* Property 1=Off (Node 42:7041): Fill VariableID:1:206, Stroke VariableID:1:204, PaddingLeft: 20px */
+.figma-switch__track--off {
+  background-color: var(--uedp-primary-500, #3b82f6);
+  border-color: var(--uedp-primary-300, #93c5fd);
+}
+
+.figma-switch__track--off .figma-switch__thumb {
+  background-color: var(--uedp-primary-300, #93c5fd);
+  left: 20px;
+}
+
+.figma-switch__label {
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+  color: var(--uedp-slate-100, #f1f5f9);
+}
+
+.figma-switch--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

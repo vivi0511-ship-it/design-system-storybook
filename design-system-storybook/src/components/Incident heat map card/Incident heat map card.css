@@ -1,0 +1,71 @@
+/* Incident heat map card CSS - Synchronized with Figma Node ID: 42:7004 */
+
+.figma-heatmap-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-3, 12px);
+  background-color: #faf5ff; /* Exact Figma Fill: #faf5ff / #dcdcdc */
+  border: 1.5px solid #8a38f5; /* Exact Figma Variant Stroke: #8a38f5 */
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: 18px;
+  width: 100%;
+  max-width: 340px;
+  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #3b0764; /* Exact Figma Text Fill: #3b0764 */
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+}
+
+.figma-heatmap-card:hover,
+.figma-heatmap-card--hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -3px rgba(138, 56, 245, 0.25);
+  border-color: #7c3aed;
+}
+
+.figma-heatmap-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figma-heatmap-card__title {
+  font-size: var(--uedp-typography-font-size-md, 16px);
+  font-weight: var(--uedp-typography-font-weight-bold, 700);
+  color: #3b0764; /* Exact Figma Fill: #3b0764 */
+}
+
+.figma-heatmap-card__badge {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--uedp-radii-full, 9999px);
+  background-color: rgba(138, 56, 245, 0.15);
+  color: #7c3aed;
+}
+
+.figma-heatmap-card__stat {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.figma-heatmap-card__count {
+  font-size: var(--uedp-typography-font-size-2xl, 24px);
+  font-weight: var(--uedp-typography-font-weight-bold, 700);
+  color: #3b0764; /* Exact Figma Fill: #3b0764 */
+}
+
+.figma-heatmap-card__count-label {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  color: #6b21a8;
+}
+
+.figma-heatmap-card__detail {
+  margin: 0;
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  color: #3b0764; /* Exact Figma Fill: #3b0764 */
+  line-height: 1.4;
+  font-weight: 500;
+}

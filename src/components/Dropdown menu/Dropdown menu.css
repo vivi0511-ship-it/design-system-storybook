@@ -1,0 +1,82 @@
+/* Dropdown menu CSS - Bound to Figma Tokens */
+
+.figma-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-1, 4px);
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+}
+
+.figma-dropdown__label {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  font-weight: var(--uedp-typography-font-weight-medium, 500);
+  color: var(--uedp-slate-200, #e2e8f0);
+}
+
+.figma-dropdown__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-md, 8px);
+  color: var(--uedp-slate-100, #f1f5f9);
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.figma-dropdown__trigger:hover,
+.figma-dropdown__trigger--open {
+  border-color: var(--uedp-primary-500, #3b82f6);
+}
+
+.figma-dropdown__arrow {
+  color: var(--uedp-slate-400, #94a3b8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.figma-dropdown__arrow--open {
+  transform: rotate(180deg);
+  color: var(--uedp-primary-400, #60a5fa);
+}
+
+.figma-dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-md, 8px);
+  box-shadow: var(--uedp-shadows-lg, 0 10px 15px -3px rgba(0,0,0,0.1));
+  z-index: 50;
+  overflow: hidden;
+}
+
+.figma-dropdown__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+  color: var(--uedp-slate-200, #e2e8f0);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.figma-dropdown__item:hover {
+  background-color: var(--uedp-slate-700, #334155);
+  color: #ffffff;
+}
+
+.figma-dropdown__item--selected {
+  background-color: rgba(37, 99, 235, 0.15);
+  color: var(--uedp-primary-400, #60a5fa);
+  font-weight: 600;
+}

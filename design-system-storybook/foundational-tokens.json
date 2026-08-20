@@ -1,0 +1,53 @@
+{
+  "name": "Foundational Tokens",
+  "version": "1.0.0",
+  "tokens": {
+    "spacing": {
+      "0": { "value": "0px", "com.figma.variableId": "VariableID:2:101", "type": "dimension" },
+      "1": { "value": "4px", "com.figma.variableId": "VariableID:2:102", "type": "dimension" },
+      "2": { "value": "8px", "com.figma.variableId": "VariableID:2:103", "type": "dimension" },
+      "3": { "value": "12px", "com.figma.variableId": "VariableID:2:104", "type": "dimension" },
+      "4": { "value": "16px", "com.figma.variableId": "VariableID:2:105", "type": "dimension" },
+      "5": { "value": "20px", "com.figma.variableId": "VariableID:2:106", "type": "dimension" },
+      "6": { "value": "24px", "com.figma.variableId": "VariableID:2:107", "type": "dimension" },
+      "8": { "value": "32px", "com.figma.variableId": "VariableID:2:108", "type": "dimension" },
+      "10": { "value": "40px", "com.figma.variableId": "VariableID:2:109", "type": "dimension" },
+      "12": { "value": "48px", "com.figma.variableId": "VariableID:2:110", "type": "dimension" }
+    },
+    "radii": {
+      "none": { "value": "0px", "com.figma.variableId": "VariableID:2:201", "type": "borderRadius" },
+      "sm": { "value": "4px", "com.figma.variableId": "VariableID:2:202", "type": "borderRadius" },
+      "md": { "value": "8px", "com.figma.variableId": "VariableID:2:203", "type": "borderRadius" },
+      "lg": { "value": "12px", "com.figma.variableId": "VariableID:2:204", "type": "borderRadius" },
+      "xl": { "value": "16px", "com.figma.variableId": "VariableID:2:205", "type": "borderRadius" },
+      "2xl": { "value": "24px", "com.figma.variableId": "VariableID:2:206", "type": "borderRadius" },
+      "3xl": { "value": "32px", "com.figma.variableId": "VariableID:2:207", "type": "borderRadius" },
+      "full": { "value": "9999px", "com.figma.variableId": "VariableID:2:208", "type": "borderRadius" }
+    },
+    "geometry": {
+      "border-width-sm": { "value": "1px", "com.figma.variableId": "VariableID:2:301", "type": "dimension" },
+      "border-width-md": { "value": "2px", "com.figma.variableId": "VariableID:2:302", "type": "dimension" },
+      "icon-sm": { "value": "16px", "com.figma.variableId": "VariableID:2:303", "type": "dimension" },
+      "icon-md": { "value": "20px", "com.figma.variableId": "VariableID:2:304", "type": "dimension" },
+      "icon-lg": { "value": "24px", "com.figma.variableId": "VariableID:2:305", "type": "dimension" }
+    },
+    "typography": {
+      "font-family-base": { "value": "Inter, system-ui, -apple-system, sans-serif", "com.figma.variableId": "VariableID:2:401", "type": "fontFamily" },
+      "font-size-xs": { "value": "12px", "com.figma.variableId": "VariableID:2:402", "type": "fontSize" },
+      "font-size-sm": { "value": "14px", "com.figma.variableId": "VariableID:2:403", "type": "fontSize" },
+      "font-size-md": { "value": "16px", "com.figma.variableId": "VariableID:2:404", "type": "fontSize" },
+      "font-size-lg": { "value": "18px", "com.figma.variableId": "VariableID:2:405", "type": "fontSize" },
+      "font-size-xl": { "value": "20px", "com.figma.variableId": "VariableID:2:406", "type": "fontSize" },
+      "font-size-2xl": { "value": "24px", "com.figma.variableId": "VariableID:2:407", "type": "fontSize" },
+      "font-weight-regular": { "value": "400", "com.figma.variableId": "VariableID:2:408", "type": "fontWeight" },
+      "font-weight-medium": { "value": "500", "com.figma.variableId": "VariableID:2:409", "type": "fontWeight" },
+      "font-weight-semibold": { "value": "600", "com.figma.variableId": "VariableID:2:410", "type": "fontWeight" },
+      "font-weight-bold": { "value": "700", "com.figma.variableId": "VariableID:2:411", "type": "fontWeight" }
+    },
+    "shadows": {
+      "sm": { "value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)", "com.figma.variableId": "VariableID:2:501", "type": "boxShadow" },
+      "md": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", "com.figma.variableId": "VariableID:2:502", "type": "boxShadow" },
+      "lg": { "value": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)", "com.figma.variableId": "VariableID:2:503", "type": "boxShadow" }
+    }
+  }
+}

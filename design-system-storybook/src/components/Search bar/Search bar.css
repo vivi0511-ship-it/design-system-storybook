@@ -1,0 +1,63 @@
+/* Search bar CSS - Synchronized with Figma Node ID: 52:5176 */
+
+.figma-searchbar {
+  display: flex;
+  align-items: center;
+  gap: var(--uedp-spacing-2, 8px);
+  padding: 8px 12px;
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1.5px solid var(--uedp-primary-600, #2563eb); /* Exact Figma Fill: --uedp-primary-600 */
+  border-radius: var(--uedp-radii-lg, 12px);
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--uedp-shadows-sm, 0 1px 2px 0 rgba(0,0,0,0.05));
+  transition: all 0.15s ease-in-out;
+}
+
+.figma-searchbar:focus-within {
+  border-color: var(--uedp-primary-400, #60a5fa);
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.25);
+}
+
+.figma-searchbar__icon {
+  color: var(--uedp-primary-600, #2563eb); /* Exact Figma Fill: --uedp-primary-600 */
+  flex-shrink: 0;
+}
+
+.figma-searchbar__input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--uedp-slate-100, #f1f5f9);
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+}
+
+.figma-searchbar__input::placeholder {
+  color: var(--uedp-primary-400, #60a5fa); /* Exact Figma Fill: --uedp-primary-400 */
+}
+
+.figma-searchbar__clear {
+  background: none;
+  border: none;
+  color: var(--uedp-slate-400, #94a3b8);
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--uedp-radii-full, 9999px);
+}
+
+.figma-searchbar__filter-btn {
+  background-color: var(--uedp-primary-600, #2563eb);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--uedp-radii-md, 8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

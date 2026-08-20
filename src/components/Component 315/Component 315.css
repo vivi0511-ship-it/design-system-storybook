@@ -1,0 +1,76 @@
+/* Preserved Figma Layer: Component 315 */
+.component-315 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: var(--uedp-padding-6, 24px);
+  font-family: var(--uedp-typography-font-family-base, 'Inter', sans-serif);
+  color: var(--uedp-slate-100, #f1f5f9);
+  box-shadow: var(--uedp-shadows-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 220px; /* Unbound raw hardcoded style */
+  box-sizing: border-box;
+}
+
+.component-315:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--uedp-shadows-md);
+  border-color: var(--uedp-primary-500, #3b82f6);
+}
+
+.component-315__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--uedp-spacing-3, 12px);
+}
+
+.component-315__label {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--uedp-slate-400, #94a3b8);
+  font-weight: var(--uedp-typography-font-weight-semibold, 600);
+}
+
+.component-315__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; /* Unbound raw hardcoded dimension */
+  height: 36px; /* Unbound raw hardcoded dimension */
+  border-radius: var(--uedp-radii-md, 8px);
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--uedp-primary-400, #60a5fa);
+}
+
+.component-315__value {
+  font-size: var(--uedp-typography-font-size-2xl, 24px);
+  font-weight: var(--uedp-typography-font-weight-bold, 700);
+  color: var(--uedp-slate-50, #f8fafc);
+  margin-bottom: var(--uedp-spacing-2, 8px);
+}
+
+.component-315__footer {
+  display: flex;
+  align-items: center;
+  gap: var(--uedp-spacing-2, 8px);
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+}
+
+.component-315__trend--up {
+  color: var(--uedp-emerald-500, #10b981);
+  font-weight: var(--uedp-typography-font-weight-semibold, 600);
+}
+
+.component-315__trend--down {
+  color: var(--uedp-rose-500, #f43f5e);
+  font-weight: var(--uedp-typography-font-weight-semibold, 600);
+}
+
+.component-315__subtext {
+  color: var(--uedp-slate-400, #94a3b8);
+}

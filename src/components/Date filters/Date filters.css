@@ -1,0 +1,72 @@
+/* Date filters CSS - Bound to Figma Design Tokens */
+
+.figma-date-filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-spacing-3, 12px);
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1.5px solid #8a38f5; /* Exact Figma Stroke: #8a38f5 */
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: 18px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+}
+
+.figma-date-filters__presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--uedp-spacing-2, 8px);
+}
+
+.figma-date-filters__btn {
+  background-color: var(--uedp-slate-900, #0f172a);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-md, 8px);
+  color: var(--uedp-slate-200, #e2e8f0);
+  padding: 6px 12px;
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.figma-date-filters__btn:hover {
+  border-color: var(--uedp-primary-500, #3b82f6);
+  color: #ffffff;
+}
+
+.figma-date-filters__btn--active {
+  background-color: var(--uedp-primary-600, #2563eb);
+  color: #ffffff;
+  border-color: var(--uedp-primary-500, #3b82f6);
+  font-weight: 600;
+}
+
+.figma-date-filters__inputs {
+  display: flex;
+  gap: var(--uedp-spacing-3, 12px);
+}
+
+.figma-date-filters__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.figma-date-filters__label {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  color: var(--uedp-slate-400, #94a3b8);
+}
+
+.figma-date-filters__input {
+  background-color: var(--uedp-slate-900, #0f172a);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-md, 8px);
+  color: var(--uedp-slate-100, #f1f5f9);
+  padding: 6px 10px;
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  outline: none;
+}

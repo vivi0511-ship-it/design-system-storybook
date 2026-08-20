@@ -1,0 +1,85 @@
+/* Buttons CSS - Synchronized with Figma Design Tokens */
+
+.figma-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  font-weight: var(--uedp-typography-font-weight-semibold, 600);
+  border-radius: var(--uedp-radii-md, 8px);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  outline: none;
+  box-shadow: var(--uedp-shadows-sm, 0 1px 2px 0 rgba(0,0,0,0.05));
+}
+
+/* Sizes */
+.figma-btn--tiny {
+  padding: 4px 8px;
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+}
+
+.figma-btn--medium {
+  padding: 8px 16px;
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+}
+
+.figma-btn--large {
+  padding: 12px 20px;
+  font-size: var(--uedp-typography-font-size-md, 16px);
+}
+
+.figma-btn--big {
+  padding: 16px 24px;
+  font-size: var(--uedp-typography-font-size-lg, 18px);
+}
+
+/* Types */
+.figma-btn--primary {
+  background-color: var(--uedp-primary-600, #2563eb);
+  color: #ffffff;
+}
+
+.figma-btn--primary:hover,
+.figma-btn--primary.figma-btn--state-hover {
+  background-color: var(--uedp-primary-700, #1d4ed8);
+}
+
+.figma-btn--primary:active,
+.figma-btn--primary.figma-btn--state-press {
+  background-color: var(--uedp-primary-800, #1e40af);
+}
+
+.figma-btn--secondary {
+  background-color: var(--uedp-slate-800, #1e293b);
+  color: var(--uedp-primary-400, #60a5fa);
+  border-color: var(--uedp-primary-500, #3b82f6);
+}
+
+.figma-btn--secondary:hover,
+.figma-btn--secondary.figma-btn--state-hover {
+  background-color: var(--uedp-slate-700, #334155);
+}
+
+.figma-btn--tertiary {
+  background-color: transparent;
+  color: var(--uedp-slate-200, #e2e8f0);
+}
+
+.figma-btn--tertiary:hover,
+.figma-btn--tertiary.figma-btn--state-hover {
+  background-color: var(--uedp-slate-800, #1e293b);
+  color: var(--uedp-primary-300, #93c5fd);
+}
+
+/* Disabled State */
+.figma-btn--disabled,
+.figma-btn:disabled {
+  background-color: var(--uedp-slate-800, #1e293b) !important;
+  color: var(--uedp-slate-500, #64748b) !important;
+  border-color: var(--uedp-slate-700, #334155) !important;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}

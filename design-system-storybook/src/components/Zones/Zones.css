@@ -1,0 +1,73 @@
+/* Preserved Figma Layer: Zones */
+.figma-zones {
+  display: flex;
+  flex-direction: column;
+  gap: var(--uedp-gap-4, 16px);
+  background-color: var(--uedp-slate-800, #1e293b);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-xl, 16px);
+  padding: var(--uedp-padding-6, 24px);
+  font-family: var(--uedp-typography-font-family-base, 'Inter', sans-serif);
+  color: var(--uedp-slate-100, #f1f5f9);
+  box-shadow: var(--uedp-shadows-sm);
+  box-sizing: border-box;
+}
+
+.figma-zones__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figma-zones__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: var(--uedp-spacing-3, 12px);
+}
+
+.figma-zones__card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* Unbound hardcoded gap */
+  background-color: var(--uedp-slate-900, #0f172a);
+  border: 1px solid var(--uedp-slate-700, #334155);
+  border-radius: var(--uedp-radii-md, 8px);
+  padding: 12px; /* Unbound hardcoded padding */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.figma-zones__card:hover {
+  border-color: var(--uedp-primary-500, #3b82f6);
+  transform: translateY(-1px);
+}
+
+.figma-zones__card--selected {
+  background-color: rgba(37, 99, 235, 0.15);
+  border-color: var(--uedp-primary-500, #3b82f6);
+}
+
+.figma-zones__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px; /* Unbound raw hardcoded size */
+  height: 24px; /* Unbound raw hardcoded size */
+  border-radius: var(--uedp-radii-full, 9999px);
+  background-color: var(--uedp-primary-600, #2563eb);
+  color: var(--uedp-slate-50, #f8fafc);
+  font-size: 11px; /* Unbound font size */
+  font-weight: 700;
+}
+
+.figma-zones__name {
+  font-size: var(--uedp-typography-font-size-sm, 14px);
+  font-weight: var(--uedp-typography-font-weight-semibold, 600);
+  color: var(--uedp-slate-100, #f1f5f9);
+}
+
+.figma-zones__meta {
+  font-size: var(--uedp-typography-font-size-xs, 12px);
+  color: var(--uedp-slate-400, #94a3b8);
+}
