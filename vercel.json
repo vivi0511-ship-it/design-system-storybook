@@ -1,15 +1,8 @@
 {
   "version": 2,
   "name": "design-system-storybook",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "storybook-static"
-      }
-    }
-  ],
+  "buildCommand": "npm run build-storybook",
+  "outputDirectory": "storybook-static",
   "routes": [
     {
       "handle": "filesystem"

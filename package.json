@@ -9,6 +9,7 @@
     "generate-tokens": "node scripts/generate-tokens.js",
     "storybook": "node scripts/generate-tokens.js && storybook dev -p 6006",
     "build-storybook": "node scripts/generate-tokens.js && storybook build -o storybook-static",
+    "vercel-build": "npm run build-storybook",
     "type-check": "tsc --noEmit",
     "deploy-vercel": "node scripts/deploy-vercel.js"
   },
@@ -25,6 +26,7 @@
     "@storybook/blocks": "^8.3.0",
     "@storybook/react": "^8.3.0",
     "@storybook/react-vite": "^8.3.0",
+    "@storybook/test": "^8.3.0",
     "@types/node": "^20.14.9",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
