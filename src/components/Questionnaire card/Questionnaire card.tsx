@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { HelpCircle, CheckCircle2 } from 'lucide-react';
 import './Questionnaire card.css';
 
 export interface QuestionnaireOption {
@@ -12,53 +11,63 @@ export interface QuestionnaireCardProps {
   question?: string;
   /** Option list */
   options?: QuestionnaireOption[];
-  /** On submit callback */
-  onSubmit?: (selectedId: string) => void;
+  /** Default or controlled selected option ID */
+  selectedId?: string;
+  /** On option selection callback */
+  onSelectOption?: (selectedId: string) => void;
 }
 
-const defaultQuestions: QuestionnaireOption[] = [
-  { id: 'q1', label: 'Soil Nitrogen Depletion' },
-  { id: 'q2', label: 'Irrigation Drainage Deficit' },
-  { id: 'q3', label: 'Pest Infestation Risk' },
+const defaultOptions: QuestionnaireOption[] = [
+  { id: 'opt1', label: 'Option1' },
+  { id: 'opt2', label: 'Option2' },
+  { id: 'opt3', label: 'Option3' },
+  { id: 'opt4', label: 'Option4' },
 ];
 
 /**
  * Questionnaire card
- * Preserved Figma Layer Name: "Questionnaire card"
+ * Preserved Figma Layer Name: "Questionnaire card" (Node ID: 47:4495)
  * 
- * Interactive field diagnostic questionnaire card component bound to design tokens.
+ * Synchronized with exact Figma node 47:4495 specifications:
+ * - Light lavender background (#f3e8ff) card container with 24px border radius
+ * - Inter 16px weight 600 dark purple question title (#2e1065)
+ * - Vertical option items list (Option1, Option2, Option3, Option4)
+ * - Figma radial radio buttons (#c084fc stroke, #ede9fe fill, #c084fc selected dot)
  */
 export const QuestionnaireCard: React.FC<QuestionnaireCardProps> = ({
-  question = 'What primary issue requires field inspection today?',
-  options = defaultQuestions,
-  onSubmit,
+  question = '1. How do u usually travel?',
+  options = defaultOptions,
+  selectedId: controlledSelectedId,
+  onSelectOption,
 }) => {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [internalSelectedId, setInternalSelectedId] = useState<string | null>(null);
+
+  const activeSelectedId = controlledSelectedId !== undefined ? controlledSelectedId : internalSelectedId;
 
   const handleSelect = (id: string) => {
-    setSelectedId(id);
-    if (onSubmit) onSubmit(id);
+    setInternalSelectedId(id);
+    if (onSelectOption) onSelectOption(id);
   };
 
   return (
-    <div className="figma-questionnaire">
-      <div className="figma-questionnaire__header">
-        <HelpCircle size={20} color="var(--uedp-primary-400)" />
-        <h4 className="figma-questionnaire__title">{question}</h4>
-      </div>
+    <div className="figma-questionnaire" data-node-id="47:4495">
+      <h3 className="figma-questionnaire__title">{question}</h3>
 
       <div className="figma-questionnaire__options">
         {options.map((opt) => {
-          const isSelected = selectedId === opt.id;
+          const isSelected = activeSelectedId === opt.id;
           return (
-            <div
+            <button
               className={`figma-questionnaire__opt ${isSelected ? 'figma-questionnaire__opt--selected' : ''}`}
               key={opt.id}
               onClick={() => handleSelect(opt.id)}
+              type="button"
             >
-              <span>{opt.label}</span>
-              {isSelected && <CheckCircle2 size={16} color="var(--uedp-primary-400)" />}
-            </div>
+              <div className="figma-questionnaire__radio">
+                <div className="figma-questionnaire__radio-dot" />
+              </div>
+              <span className="figma-questionnaire__opt-label">{opt.label}</span>
+            </button>
           );
         })}
       </div>
