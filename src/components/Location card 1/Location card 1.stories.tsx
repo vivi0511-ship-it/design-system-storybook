@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { LocationCard1 } from './Location card 1';
+import { LocationCard1, LocationCard1Matrix } from './Location card 1';
 
 const meta: Meta<typeof LocationCard1> = {
   title: 'Figma Components/Location card 1',
@@ -13,15 +13,31 @@ const meta: Meta<typeof LocationCard1> = {
     },
     locationName: {
       control: { type: 'text' },
-      description: 'Location title label',
+      description: 'Location title',
+    },
+    safetyScore: {
+      control: { type: 'text' },
+      description: 'Safety score value',
+    },
+    isWomanOwned: {
+      control: { type: 'boolean' },
+      description: 'Woman owned badge indicator',
+    },
+    category: {
+      control: { type: 'text' },
+      description: 'Category description',
+    },
+    status: {
+      control: { type: 'text' },
+      description: 'Operational status',
+    },
+    closingTime: {
+      control: { type: 'text' },
+      description: 'Closing time text',
     },
     distance: {
       control: { type: 'text' },
-      description: 'Proximity distance display',
-    },
-    rating: {
-      control: { type: 'number' },
-      description: 'Rating score',
+      description: 'Distance display',
     },
   },
   parameters: {
@@ -30,12 +46,15 @@ const meta: Meta<typeof LocationCard1> = {
         component: `
 ### Figma Component Specs: \`Location card 1\`
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
+| Figma Layer Property | Value | Notes |
 | :--- | :--- | :--- |
-| **Card Fill** | \`var(--uedp-slate-800)\` (\`#1e293b\`) | — |
-| **Action Button** | \`var(--uedp-primary-600)\` (\`#2563eb\`) | — |
-| **Border Radius** | \`var(--uedp-radii-xl)\` (\`16px\`) | — |
-| **Figma Layer Name** | \`Location card 1\` | Preserved as-is |
+| **Card Fill** | \`#ede4ff\` | Light lavender card background |
+| **Active Border** | \`1.5px solid #5b21b6\` | Active / Press state border |
+| **Title Color** | \`#362061\` | Deep purple Montserrat title |
+| **Text Color** | \`#60507e\` | Medium purple labels |
+| **Open Status** | \`#16a34a\` | Bold green status text |
+| **Border Radius** | \`24px\` | Card container corner radius |
+| **Figma Layer Name** | \`Location card 1\` | Node ID 51:4530 |
         `,
       },
     },
@@ -45,20 +64,32 @@ const meta: Meta<typeof LocationCard1> = {
 export default meta;
 type Story = StoryObj<typeof LocationCard1>;
 
-export const Default: Story = {
+export const DefaultCard: Story = {
   args: {
     state: 'default',
-    locationName: 'Valley AgStation North',
-    distance: '2.4 km away',
-    rating: 4.8,
+    locationName: 'Mrug Crafts',
+    safetyScore: '4.9',
+    isWomanOwned: true,
+    category: 'Craft center',
+    status: 'Open',
+    closingTime: 'Closes 22:30',
+    distance: '8 km',
   },
 };
 
-export const Pressed: Story = {
+export const PressedCard: Story = {
   args: {
     state: 'Press',
-    locationName: 'Central Storage Silo 02',
-    distance: '5.1 km away',
-    rating: 4.6,
+    locationName: 'Mrug Crafts',
+    safetyScore: '4.9',
+    isWomanOwned: true,
+    category: 'Craft center',
+    status: 'Open',
+    closingTime: 'Closes 22:30',
+    distance: '8 km',
   },
+};
+
+export const CompleteComponentSetMatrix: Story = {
+  render: () => <LocationCard1Matrix />,
 };
