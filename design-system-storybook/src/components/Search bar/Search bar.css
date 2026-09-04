@@ -1,63 +1,114 @@
-/* Search bar CSS - Synchronized with Figma Node ID: 52:5176 */
+/* Search bar CSS - Synchronized with exact Figma Node ID: 53:2567 specifications */
 
 .figma-searchbar {
   display: flex;
   align-items: center;
-  gap: var(--uedp-spacing-2, 8px);
-  padding: 8px 12px;
-  background-color: var(--uedp-slate-800, #1e293b);
-  border: 1.5px solid var(--uedp-primary-600, #2563eb); /* Exact Figma Fill: --uedp-primary-600 */
-  border-radius: var(--uedp-radii-lg, 12px);
+  justify-content: space-between;
+  background-color: #e9d5ff; /* Exact Figma Frame Fill: #e9d5ff */
+  border-radius: 50px; /* Exact Figma CornerRadius: 50px */
+  height: 48px; /* Exact Figma Height: 48px */
   width: 100%;
-  max-width: 400px;
-  box-shadow: var(--uedp-shadows-sm, 0 1px 2px 0 rgba(0,0,0,0.05));
+  max-width: 326px; /* Exact Figma BoundingBox Width: 326px */
+  padding: 0 24px;
+  box-sizing: border-box;
+  font-family: Montserrat, Inter, system-ui, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft drop shadow */
   transition: all 0.15s ease-in-out;
+  border: 1px solid transparent;
+  position: relative;
 }
 
-.figma-searchbar:focus-within {
-  border-color: var(--uedp-primary-400, #60a5fa);
-  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.25);
-}
-
-.figma-searchbar__icon {
-  color: var(--uedp-primary-600, #2563eb); /* Exact Figma Fill: --uedp-primary-600 */
-  flex-shrink: 0;
+.figma-searchbar__input-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  height: 100%;
 }
 
 .figma-searchbar__input {
-  flex: 1;
+  width: 100%;
+  height: 100%;
   background: none;
   border: none;
   outline: none;
-  color: var(--uedp-slate-100, #f1f5f9);
-  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
-  font-size: var(--uedp-typography-font-size-sm, 14px);
+  font-family: Montserrat, sans-serif;
+  font-size: 20px; /* Exact Figma FontSize: 20px */
+  font-weight: 500; /* Exact Figma FontWeight: 500 */
+  color: #2e1065; /* Exact Figma Text Fill: #2e1065 */
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .figma-searchbar__input::placeholder {
-  color: var(--uedp-primary-400, #60a5fa); /* Exact Figma Fill: --uedp-primary-400 */
+  color: #c084fc; /* Exact Figma Placeholder Fill: #c084fc */
+  opacity: 1;
 }
 
-.figma-searchbar__clear {
+/* Blinking Cursor caret for Active state */
+@keyframes figma-searchbar-cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.figma-searchbar__cursor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 22px;
+  background-color: #2e1065;
+  animation: figma-searchbar-cursor-blink 1s step-end infinite;
+  pointer-events: none;
+}
+
+/* VARIANT: State=Default */
+.figma-searchbar--default {
+  border-color: transparent;
+}
+.figma-searchbar--default .figma-searchbar__input {
+  color: #c084fc;
+}
+
+/* VARIANT: State=Pressed */
+.figma-searchbar--pressed {
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+}
+.figma-searchbar--pressed .figma-searchbar__input {
+  color: #c084fc;
+}
+
+/* VARIANT: State=Active */
+.figma-searchbar--active {
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+}
+.figma-searchbar--active .figma-searchbar__input {
+  color: #2e1065; /* Exact Figma Text Fill: #2e1065 */
+}
+
+/* VARIANT: State=Filled */
+.figma-searchbar--filled {
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+}
+.figma-searchbar--filled .figma-searchbar__input {
+  color: #2e1065; /* Exact Figma Text Fill: #2e1065 */
+}
+
+/* Right Microphone Icon button */
+.figma-searchbar__mic-btn {
   background: none;
   border: none;
-  color: var(--uedp-slate-400, #94a3b8);
+  padding: 0;
+  margin-left: 12px;
   cursor: pointer;
-  padding: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--uedp-radii-full, 9999px);
+  color: #2e1065; /* Exact Figma Mic Fill: #2e1065 */
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
 }
 
-.figma-searchbar__filter-btn {
-  background-color: var(--uedp-primary-600, #2563eb);
-  border: none;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 6px;
-  border-radius: var(--uedp-radii-md, 8px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.figma-searchbar__mic-btn:hover {
+  transform: scale(1.1);
 }
