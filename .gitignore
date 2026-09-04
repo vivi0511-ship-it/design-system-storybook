@@ -8,6 +8,10 @@ storybook-static/
 build/
 .vercel/
 
+# Nested portfolio folders
+CUsersShaivi LavheDesktopshaivi-portfolio/
+shaivi-portfolio/
+
 # Logs and system files
 *.log
 .DS_Store

@@ -1,0 +1,174 @@
+/* Pill Component Grid CSS - Exact reproduction of image_0.png */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Overall Outer Wrapper with Dark Textured Charcoal-Grey Background */
+.pill-grid-wrapper {
+  background-color: #16171b;
+  background-image: 
+    radial-gradient(ellipse at center, rgba(35, 37, 44, 0.8) 0%, rgba(18, 19, 23, 0.95) 100%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.012) 0, rgba(255, 255, 255, 0.012) 1px, transparent 0, transparent 5px);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Container with Subtle Purple Dashed Border */
+.pill-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 56px;
+  background: rgba(22, 23, 27, 0.6);
+  border: 2px dashed #9333ea;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Row Layout */
+.pill-grid-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Core Pill Component Base Styling */
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+.pill-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.pill-btn__text {
+  font-family: 'Roboto', 'Inter', sans-serif;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.pill-btn__icon {
+  flex-shrink: 0;
+  display: block;
+}
+
+/* =========================================
+   ROW COLOR THEMES
+   ========================================= */
+
+/* Row 1: Deep Purple */
+.pill-btn--deep-purple {
+  background-color: #6b21a8;
+  color: #ffffff;
+}
+
+.pill-btn--deep-purple .pill-btn__icon {
+  stroke: #ffffff;
+}
+
+/* Row 2: Light Lavender-White */
+.pill-btn--light-lavender {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+
+.pill-btn--light-lavender .pill-btn__icon {
+  stroke: #5b21b6;
+}
+
+/* Row 3: Vibrant Green */
+.pill-btn--vibrant-green {
+  background-color: #10b981;
+  color: #4c1d95;
+}
+
+.pill-btn--vibrant-green .pill-btn__icon {
+  stroke: #4c1d95;
+}
+
+/* Row 4: Light Mint-Green */
+.pill-btn--light-mint {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.pill-btn--light-mint .pill-btn__icon {
+  stroke: #059669;
+}
+
+
+/* =========================================
+   COLUMN SIZING PROGRESSION (Col 1 -> Col 4)
+   ========================================= */
+
+/* Column 1: Small / Compact */
+.pill-btn--col-1 {
+  height: 32px;
+  padding: 0 16px;
+  gap: 8px;
+  min-width: 90px;
+}
+
+.pill-btn--col-1 .pill-btn__text {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Column 2: Medium */
+.pill-btn--col-2 {
+  height: 38px;
+  padding: 0 24px;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.pill-btn--col-2 .pill-btn__text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Column 3: Large */
+.pill-btn--col-3 {
+  height: 44px;
+  padding: 0 32px;
+  gap: 12px;
+  min-width: 155px;
+}
+
+.pill-btn--col-3 .pill-btn__text {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Column 4: Giant / Widest / Boldest */
+.pill-btn--col-4 {
+  height: 56px;
+  padding: 0 44px;
+  gap: 14px;
+  min-width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pill-btn--col-4 .pill-btn__text {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}

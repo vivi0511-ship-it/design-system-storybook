@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Buttons } from './Buttons';
+import { PillComponentGrid } from '../PillComponentGrid/PillComponentGrid';
 
 const meta: Meta<typeof Buttons> = {
   title: 'Figma Components/Buttons',
@@ -34,14 +35,14 @@ const meta: Meta<typeof Buttons> = {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Buttons\`
+### Figma Component Specs: \`Buttons\` & \`Pill Component Grid\`
 
 | Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
 | :--- | :--- | :--- |
 | **Primary Fill** | \`var(--uedp-primary-600)\` (\`#2563eb\`) | — |
 | **Hover Fill** | \`var(--uedp-primary-700)\` (\`#1d4ed8\`) | — |
-| **Border Radius** | \`var(--uedp-radii-md)\` (\`8px\`) | — |
-| **Font Family** | \`var(--uedp-typography-font-family-base)\` | \`Inter, sans-serif\` |
+| **Border Radius** | \`var(--uedp-radii-md)\` (\`8px\`) / Pill \`9999px\` | — |
+| **Font Family** | \`var(--uedp-typography-font-family-base)\` | \`Inter, Roboto, sans-serif\` |
 | **Figma Layer Name** | \`Buttons\` | Preserved as-is |
         `,
       },
@@ -87,4 +88,8 @@ export const DisabledState: Story = {
     label: 'Disabled Action',
     disabled: true,
   },
+};
+
+export const PillComponentGridMatrix: Story = {
+  render: () => <PillComponentGrid />,
 };
