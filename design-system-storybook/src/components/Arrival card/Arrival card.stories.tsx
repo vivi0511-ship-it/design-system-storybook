@@ -8,7 +8,11 @@ const meta: Meta<typeof ArrivalCard> = {
   argTypes: {
     title: {
       control: { type: 'text' },
-      description: 'Main arrival headline (Node ID: 52:5981)',
+      description: 'Hero arrival title text',
+    },
+    subtitle: {
+      control: { type: 'text' },
+      description: 'Arrival subtext description',
     },
     destination: {
       control: { type: 'text' },
@@ -16,7 +20,7 @@ const meta: Meta<typeof ArrivalCard> = {
     },
     tripTime: {
       control: { type: 'text' },
-      description: 'Trip time metric',
+      description: 'Trip duration metric',
     },
     distance: {
       control: { type: 'text' },
@@ -24,7 +28,7 @@ const meta: Meta<typeof ArrivalCard> = {
     },
     safetyScore: {
       control: { type: 'text' },
-      description: 'Safety score rating metric',
+      description: 'Safety score metric rating',
     },
   },
   parameters: {
@@ -33,13 +37,15 @@ const meta: Meta<typeof ArrivalCard> = {
         component: `
 ### Figma Component Specs: \`Arrival card\` (Node ID: \`52:5981\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Exact Figma Value |
+| Figma Component Element | Color / Hex | Specs |
 | :--- | :--- | :--- |
-| **Card Fill** | — | \`#5b21b6\` (Deep Purple) |
-| **Title Color** | — | \`#eab308\` (Yellow) |
-| **Subtext Color** | — | \`#a78bfa\` (Light Purple) |
-| **Destination Box Fill**| — | \`#3e2a64\` |
-| **Safety Button Fill** | \`var(--uedp-primary-50)\` | \`#eff6ff\` (Text \`#ede9fe\`) |
+| **Card Sheet Fill** | \`#551ba8\` (Deep Purple) | 36px top border radius |
+| **Hero Checkmark** | \`#ffd000\` (Vibrant Yellow) | 68px circle with dark checkmark |
+| **Hero Title** | \`#ffd000\` | Montserrat Bold 24px |
+| **Hero Subtitle** | \`#d8b4fe\` (Light Lavender) | Montserrat 14px |
+| **Destination Badge** | \`#311059\` | Yellow dot + "Mrug Crafts" |
+| **Safety Check-in** | \`#391873\` card box | "I am safe" (\`#ede9fe\`) & "Need help" (\`#7c3aed\`) |
+| **Route Reactions** | \`#391873\` cards | Safe (😁), Unsafe (😟), Ok (😐), Report (🚨) |
         `,
       },
     },
@@ -49,22 +55,13 @@ const meta: Meta<typeof ArrivalCard> = {
 export default meta;
 type Story = StoryObj<typeof ArrivalCard>;
 
-export const DefaultArrived: Story = {
+export const DefaultArrivedCard: Story = {
   args: {
     title: "You've arrived!",
-    destination: 'Mrug Crafts',
-    tripTime: '5 min',
-    distance: '700m',
-    safetyScore: '3.9',
-  },
-};
-
-export const CustomLocation: Story = {
-  args: {
-    title: "You've arrived!",
-    destination: 'Central AgStation',
-    tripTime: '12 min',
-    distance: '2.4km',
-    safetyScore: '4.8',
+    subtitle: "You reached your destination safe.",
+    destination: "Mrug Crafts",
+    tripTime: "5 min",
+    distance: "700m",
+    safetyScore: "3.9",
   },
 };

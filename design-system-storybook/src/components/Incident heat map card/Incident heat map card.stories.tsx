@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { IncidentHeatMapCard } from './Incident heat map card';
+import { IncidentHeatMapCard, IncidentHeatMapCardMatrix } from './Incident heat map card';
 
 const meta: Meta<typeof IncidentHeatMapCard> = {
   title: 'Figma Components/Incident heat map card',
@@ -9,34 +9,42 @@ const meta: Meta<typeof IncidentHeatMapCard> = {
     state: {
       control: { type: 'select' },
       options: ['Default', 'Hover'],
-      description: 'Preserved Figma State variant',
+      description: 'Card Variant State: Default (pure white fill) or Hover (light lavender fill)',
     },
-    severity: {
-      control: { type: 'select' },
-      options: ['High', 'Medium', 'Low'],
-      description: 'Severity risk level',
-    },
-    regionName: {
+    heading: {
       control: { type: 'text' },
-      description: 'Region name label',
+      description: 'Incident title heading',
     },
-    incidentCount: {
-      control: { type: 'number' },
-      description: 'Count of active incidents',
+    categoriesList: {
+      control: { type: 'text' },
+      description: 'Harrassment categories list string',
+    },
+    location: {
+      control: { type: 'text' },
+      description: 'Incident location string',
+    },
+    dateTime: {
+      control: { type: 'text' },
+      description: 'Incident date and time range',
+    },
+    viewMoreText: {
+      control: { type: 'text' },
+      description: 'View more link button text',
     },
   },
   parameters: {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Incident heat map card\`
+### Figma Component Specs: \`Incident heat map card\` (Node ID: \`42:7004\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
+| Variant State | Card Background | Typography & Icons |
 | :--- | :--- | :--- |
-| **Card Fill** | \`var(--uedp-slate-800)\` (\`#1e293b\`) | — |
-| **Border High Risk** | \`var(--uedp-rose-500)\` (\`#f43f5e\`) | — |
-| **Border Radius** | \`var(--uedp-radii-xl)\` (\`16px\`) | — |
-| **Figma Layer Name** | \`Incident heat map card\` | Preserved as-is |
+| **Variant 1 (Default)** | \`#ffffff\` (Pure White) | Dark deep purple (\`#2e1065\`), purple icons (\`#9333ea\`) |
+| **Variant 2 (Hover)** | \`#f8f5fe\` (Light Lavender) | Dark deep purple (\`#2e1065\`), purple icons (\`#9333ea\`) |
+
+- **Card Radius**: \`24px\`
+- **Container Canvas**: Grey background (\`#dedede\`) enclosed in a subtle purple dashed border (\`2px dashed #9333ea\`)
         `,
       },
     },
@@ -46,22 +54,18 @@ const meta: Meta<typeof IncidentHeatMapCard> = {
 export default meta;
 type Story = StoryObj<typeof IncidentHeatMapCard>;
 
-export const HighRiskDefault: Story = {
+export const DefaultCard: Story = {
   args: {
     state: 'Default',
-    regionName: 'North-East Crop Sector',
-    incidentCount: 7,
-    severity: 'High',
-    detailText: 'High soil humidity anomaly detected',
   },
 };
 
-export const MediumRiskHover: Story = {
+export const HoverCard: Story = {
   args: {
     state: 'Hover',
-    regionName: 'South River Delta',
-    incidentCount: 3,
-    severity: 'Medium',
-    detailText: 'Moderate temperature fluctuations recorded',
   },
+};
+
+export const CompleteComponentSetMatrix: Story = {
+  render: () => <IncidentHeatMapCardMatrix />,
 };

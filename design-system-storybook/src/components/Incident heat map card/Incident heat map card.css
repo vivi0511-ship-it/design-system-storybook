@@ -1,71 +1,144 @@
-/* Incident heat map card CSS - Synchronized with Figma Node ID: 42:7004 */
+/* Incident Heat Map Card CSS - Exact reproduction of image_0.png & Figma 42:7004 */
 
-.figma-heatmap-card {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Matrix Outer Canvas Wrapper */
+.heatmap-matrix-wrapper {
+  background-color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Grey Canvas Container with Subtle Purple Dashed Border */
+.heatmap-matrix-container {
   display: flex;
   flex-direction: column;
-  gap: var(--uedp-spacing-3, 12px);
-  background-color: #faf5ff; /* Exact Figma Fill: #faf5ff / #dcdcdc */
-  border: 1.5px solid #8a38f5; /* Exact Figma Variant Stroke: #8a38f5 */
-  border-radius: var(--uedp-radii-xl, 16px);
-  padding: 18px;
+  align-items: center;
+  gap: 36px;
+  padding: 48px 40px;
+  background: #dedede;
+  border: 2px dashed #9333ea;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  max-width: 440px;
   width: 100%;
-  max-width: 340px;
-  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  color: #3b0764; /* Exact Figma Text Fill: #3b0764 */
-  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  box-sizing: border-box;
 }
 
-.figma-heatmap-card:hover,
-.figma-heatmap-card--hover {
+/* Core Card Geometry */
+.figma-heatmap-card {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 24px;
+  padding: 28px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  user-select: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.figma-heatmap-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px -3px rgba(138, 56, 245, 0.25);
-  border-color: #7c3aed;
+  box-shadow: 0 14px 36px rgba(147, 51, 234, 0.12);
 }
 
+/* Variant 1: Default Pure White Card */
+.figma-heatmap-card--default {
+  background-color: #ffffff;
+}
+
+/* Variant 2: Hover Light Lavender Card */
+.figma-heatmap-card--hover {
+  background-color: #f8f5fe;
+}
+
+/* Header Row */
 .figma-heatmap-card__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.figma-heatmap-card__title {
-  font-size: var(--uedp-typography-font-size-md, 16px);
-  font-weight: var(--uedp-typography-font-weight-bold, 700);
-  color: #3b0764; /* Exact Figma Fill: #3b0764 */
-}
-
-.figma-heatmap-card__badge {
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  font-weight: 600;
-  padding: 2px 8px;
-  border-radius: var(--uedp-radii-full, 9999px);
-  background-color: rgba(138, 56, 245, 0.15);
-  color: #7c3aed;
-}
-
-.figma-heatmap-card__stat {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.figma-heatmap-card__count {
-  font-size: var(--uedp-typography-font-size-2xl, 24px);
-  font-weight: var(--uedp-typography-font-weight-bold, 700);
-  color: #3b0764; /* Exact Figma Fill: #3b0764 */
-}
-
-.figma-heatmap-card__count-label {
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  color: #6b21a8;
-}
-
-.figma-heatmap-card__detail {
+.figma-heatmap-card__heading {
   margin: 0;
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  color: #3b0764; /* Exact Figma Fill: #3b0764 */
-  line-height: 1.4;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #2e1065;
+  letter-spacing: -0.01em;
+}
+
+.figma-heatmap-card__close-btn {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.figma-heatmap-card__close-btn:hover {
+  background-color: rgba(46, 16, 101, 0.08);
+  transform: scale(1.08);
+}
+
+/* Categories List Subtitle */
+.figma-heatmap-card__categories {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2e1065;
+  line-height: 1.45;
+}
+
+/* Detail Rows (Location and Date/Time) */
+.figma-heatmap-card__detail-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.figma-heatmap-card__icon {
+  flex-shrink: 0;
+}
+
+.figma-heatmap-card__detail-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e1065;
+}
+
+/* Action Link Row */
+.figma-heatmap-card__action-row {
+  margin-top: 4px;
+}
+
+.figma-heatmap-card__view-more {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #9333ea;
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.figma-heatmap-card__view-more:hover {
+  color: #7c3aed;
+  text-decoration: underline;
 }

@@ -1,48 +1,45 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Buttons } from './Buttons';
+import { Buttons, ButtonsSet, Buttons3SetsMatrix } from './Buttons';
 
 const meta: Meta<typeof Buttons> = {
   title: 'Figma Components/Buttons',
   component: Buttons,
   tags: ['autodocs'],
   argTypes: {
-    state: {
-      control: { type: 'select' },
-      options: ['Default', 'Hover', 'Press', 'Disable'],
-      description: 'Preserved Figma State variant',
-    },
     type: {
       control: { type: 'select' },
       options: ['Primary', 'Secondary', 'Tertiary'],
-      description: 'Preserved Figma Type variant',
+      description: 'Button Theme Set: Primary (Deep Purple), Secondary (Light Lavender), Tertiary (Vibrant Green)',
+    },
+    state: {
+      control: { type: 'select' },
+      options: ['Default', 'Hover', 'Pressed', 'Disabled'],
+      description: 'Button Interactive State: Default, Hover, Pressed, Disabled',
     },
     size: {
       control: { type: 'select' },
-      options: ['Tiny', 'Medium', 'Large', 'Big'],
-      description: 'Preserved Figma Size variant',
+      options: ['Small', 'Medium', 'Large', 'Giant'],
+      description: 'Button Column Sizing Step: Small, Medium, Large, Giant',
     },
     label: {
       control: { type: 'text' },
       description: 'Button text label',
-    },
-    disabled: {
-      control: { type: 'boolean' },
-      description: 'Disabled state control',
     },
   },
   parameters: {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Buttons\`
+### Figma Component Specs: \`Buttons\` (Node ID: \`41:6793\` / \`41:6426\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
-| :--- | :--- | :--- |
-| **Primary Fill** | \`var(--uedp-primary-600)\` (\`#2563eb\`) | — |
-| **Hover Fill** | \`var(--uedp-primary-700)\` (\`#1d4ed8\`) | — |
-| **Border Radius** | \`var(--uedp-radii-md)\` (\`8px\`) | — |
-| **Font Family** | \`var(--uedp-typography-font-family-base)\` | \`Inter, sans-serif\` |
-| **Figma Layer Name** | \`Buttons\` | Preserved as-is |
+| Set Theme | Row States | Column Sizes | Fill Colors |
+| :--- | :--- | :--- | :--- |
+| **Set 1: Primary (Deep Purple)** | Default, Hover, Pressed, Disabled | Small, Medium, Large, Giant | \`#6b21a8\` / \`#5b21b6\` / \`#4c1d95\` / \`#ddd6fe\` |
+| **Set 2: Secondary (Light Lavender)** | Default, Hover, Pressed, Disabled | Small, Medium, Large, Giant | \`#ede9fe\` / \`#ddd6fe\` / \`#c4b5fd\` / \`#f3e8ff\` |
+| **Set 3: Tertiary (Vibrant Green)** | Default, Hover, Pressed, Disabled | Small, Medium, Large, Giant | \`#10b981\` / \`#059669\` / \`#047857\` / \`#d1fae5\` |
+
+- **Border Radius**: \`9999px\` (Pill shape)
+- **Container**: White background canvas with subtle purple dashed border (\`2px dashed #9333ea\`)
         `,
       },
     },
@@ -52,39 +49,27 @@ const meta: Meta<typeof Buttons> = {
 export default meta;
 type Story = StoryObj<typeof Buttons>;
 
-export const PrimaryDefault: Story = {
+export const DefaultButton: Story = {
   args: {
-    state: 'Default',
     type: 'Primary',
-    size: 'Medium',
-    label: 'Primary Button',
-  },
-};
-
-export const SecondaryHover: Story = {
-  args: {
-    state: 'Hover',
-    type: 'Secondary',
-    size: 'Large',
-    label: 'Secondary Hover',
-  },
-};
-
-export const TertiaryBig: Story = {
-  args: {
     state: 'Default',
-    type: 'Tertiary',
-    size: 'Big',
-    label: 'Tertiary Action',
+    size: 'Medium',
+    label: 'Text',
   },
 };
 
-export const DisabledState: Story = {
-  args: {
-    state: 'Disable',
-    type: 'Primary',
-    size: 'Medium',
-    label: 'Disabled Action',
-    disabled: true,
-  },
+export const PrimaryDeepPurpleSet: Story = {
+  render: () => <ButtonsSet type="Primary" title="Set 1: Primary (Deep Purple)" />,
+};
+
+export const SecondaryLightLavenderSet: Story = {
+  render: () => <ButtonsSet type="Secondary" title="Set 2: Secondary (Light Lavender)" />,
+};
+
+export const TertiaryVibrantGreenSet: Story = {
+  render: () => <ButtonsSet type="Tertiary" title="Set 3: Tertiary (Vibrant Green)" />,
+};
+
+export const Complete3SetsMatrix: Story = {
+  render: () => <Buttons3SetsMatrix />,
 };

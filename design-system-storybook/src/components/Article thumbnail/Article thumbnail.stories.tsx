@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { ArticleThumbnail } from './Article thumbnail';
+import { ArticleThumbnail, ArticleThumbnailGrid } from './Article thumbnail';
 
 const meta: Meta<typeof ArticleThumbnail> = {
   title: 'Figma Components/Article thumbnail',
@@ -9,33 +9,25 @@ const meta: Meta<typeof ArticleThumbnail> = {
     state: {
       control: { type: 'select' },
       options: ['Default', 'Press'],
-      description: 'Preserved Figma State variant',
+      description: 'Figma State variant: Default (flat) or Press (outlined)',
     },
     title: {
       control: { type: 'text' },
-      description: 'Article headline title',
-    },
-    category: {
-      control: { type: 'text' },
-      description: 'Topic category badge',
-    },
-    readTime: {
-      control: { type: 'text' },
-      description: 'Reading duration estimate',
+      description: 'Article headline title text',
     },
   },
   parameters: {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Article thumbnail\`
+### Figma Component Specs: \`Article thumbnail\` (Node ID: \`52:4614\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
+| Figma Property | Bound Value / Hex | Specs |
 | :--- | :--- | :--- |
-| **Card Background** | \`var(--uedp-slate-800)\` (\`#1e293b\`) | — |
-| **Badge Color** | \`var(--uedp-primary-400)\` (\`#60a5fa\`) | — |
-| **Border Radius** | \`var(--uedp-radii-xl)\` (\`16px\`) | — |
-| **Figma Layer Name** | \`Article thumbnail\` | Preserved as-is |
+| **Banner Fill** | \`#2e1065\` (Dark Deep Purple) | 20px bottom corner radius |
+| **Title Typography** | Montserrat SemiBold 600 | \`#ffffff\` white, centered |
+| **Outlined Stroke** | \`#8b5cf6\` (Purple Solid Border) | 24px corner radius |
+| **Container Frame** | \`2px dashed #9333ea\` | White canvas background |
         `,
       },
     },
@@ -45,20 +37,20 @@ const meta: Meta<typeof ArticleThumbnail> = {
 export default meta;
 type Story = StoryObj<typeof ArticleThumbnail>;
 
-export const Default: Story = {
+export const DefaultFlatCard: Story = {
   args: {
     state: 'Default',
-    title: 'Sustainable Irrigation Practices for Modern Agriculture',
-    category: 'Agronomy',
-    readTime: '5 min read',
+    title: 'How to navigate safely',
   },
 };
 
-export const PressedState: Story = {
+export const PressedOutlinedCard: Story = {
   args: {
     state: 'Press',
-    title: 'Optimizing Soil Moisture Sensors for High Yield',
-    category: 'Tech & IoT',
-    readTime: '8 min read',
+    title: 'How to navigate safely',
   },
+};
+
+export const CompleteComponentSetMatrix: Story = {
+  render: () => <ArticleThumbnailGrid />,
 };

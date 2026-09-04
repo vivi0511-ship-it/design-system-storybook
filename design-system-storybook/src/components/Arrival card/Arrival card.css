@@ -1,111 +1,285 @@
-/* Arrival card CSS - Synchronized with Figma Node ID: 52:5981 */
+/* Arrival card CSS - Exact reproduction of image_0.png & Figma 52:5981 */
 
-.figma-arrival-card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--uedp-spacing-3, 12px);
-  background-color: #5b21b6; /* Exact Figma Fill: #5b21b6 */
-  border-radius: var(--uedp-radii-xl, 16px);
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Main Mobile Bottom-Sheet Card Container */
+.figma-arrival-card-sheet {
+  position: relative;
   width: 100%;
   max-width: 380px;
-  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
+  background-color: #551ba8;
+  border-radius: 36px 36px 0 0;
+  padding: 16px 24px 36px 24px;
+  box-sizing: border-box;
   color: #ffffff;
-  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  font-family: 'Montserrat', 'Inter', system-ui, -apple-system, sans-serif;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  user-select: none;
 }
 
-.figma-arrival-card__header {
+/* Top Handle Bar */
+.figma-arrival-card__handle-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+.figma-arrival-card__handle {
+  width: 44px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+/* Top Right Close Button */
+.figma-arrival-card__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #e0d7fe;
+  border: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+  z-index: 2;
+}
+
+.figma-arrival-card__close-btn:hover {
+  transform: scale(1.05);
+  background-color: #ede9fe;
+}
+
+/* Hero Section */
+.figma-arrival-card__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.figma-arrival-card__hero-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #ffd000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(255, 208, 0, 0.3);
+  margin-bottom: 16px;
 }
 
 .figma-arrival-card__title {
-  margin: 0;
-  font-size: var(--uedp-typography-font-size-xl, 20px);
-  font-weight: var(--uedp-typography-font-weight-bold, 700);
-  color: #eab308; /* Exact Figma Fill: #eab308 */
+  margin: 0 0 6px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffd000;
+  letter-spacing: -0.01em;
 }
 
 .figma-arrival-card__subtitle {
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
-  margin-top: 2px;
-}
-
-.figma-arrival-card__dest-box {
-  background-color: #3e2a64; /* Exact Figma Fill: #3e2a64 */
-  padding: 12px 14px;
-  border-radius: var(--uedp-radii-md, 8px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #ddd6fe; /* Exact Figma Fill: #ddd6fe */
-  font-weight: 600;
+  margin: 0;
   font-size: 14px;
+  font-weight: 500;
+  color: #d8b4fe;
 }
 
-.figma-arrival-card__metrics {
+/* Destination Badge */
+.figma-arrival-card__badge-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.figma-arrival-card__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #311059;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.figma-arrival-card__badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffd000;
+}
+
+.figma-arrival-card__badge-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Tri-Metrics Row */
+.figma-arrival-card__metrics-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgba(62, 42, 100, 0.5);
-  padding: 12px;
-  border-radius: var(--uedp-radii-md, 8px);
+  justify-content: space-around;
+  padding: 8px 0;
 }
 
-.figma-arrival-card__metric-item {
+.figma-arrival-card__metric-col {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-}
-
-.figma-arrival-card__metric-label {
-  font-size: 11px;
-  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
+  gap: 4px;
 }
 
 .figma-arrival-card__metric-val {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
-  color: #eab308; /* Exact Figma Fill: #eab308 */
+  color: #ffd000;
+  letter-spacing: -0.02em;
 }
 
-.figma-arrival-card__divider {
-  height: 20px;
-  width: 1px;
-  background-color: var(--uedp-primary-100, #dbeafe);
-}
-
-.figma-arrival-card__footer-title {
+.figma-arrival-card__metric-lbl {
   font-size: 13px;
-  color: #a78bfa; /* Exact Figma Fill: #a78bfa */
   font-weight: 500;
+  color: #d8b4fe;
 }
 
-.figma-arrival-card__safety-btns {
+.figma-arrival-card__metric-divider {
+  width: 1px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Safety Check-in Box */
+.figma-arrival-card__checkin-box {
+  background-color: #391873;
+  border-radius: 20px;
+  padding: 20px 24px;
   display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
-.figma-arrival-card__safety-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background-color: var(--uedp-primary-50, #eff6ff); /* Exact Figma Fill: --uedp-primary-50 */
-  color: #ede9fe; /* Exact Figma Text Fill: #ede9fe */
+.figma-arrival-card__checkin-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.figma-arrival-card__checkin-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.figma-arrival-card__checkin-sub {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #d8b4fe;
+}
+
+.figma-arrival-card__checkin-btns {
+  display: flex;
+  gap: 14px;
+}
+
+.figma-arrival-card__btn-safe {
+  flex: 1;
+  height: 44px;
+  border-radius: 9999px;
+  background-color: #ede9fe;
+  color: #2e1065;
   border: none;
-  border-radius: var(--uedp-radii-md, 8px);
-  padding: 6px 12px;
-  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  transition: opacity 0.15s ease;
+  transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
-.figma-arrival-card__safety-btn:hover {
-  opacity: 0.9;
+.figma-arrival-card__btn-safe:hover {
+  transform: translateY(-1px);
+  background-color: #ffffff;
+}
+
+.figma-arrival-card__btn-help {
+  flex: 1;
+  height: 44px;
+  border-radius: 9999px;
+  background-color: #7c3aed;
+  color: #ffffff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.figma-arrival-card__btn-help:hover {
+  transform: translateY(-1px);
+  background-color: #6d28d9;
+}
+
+/* Feedback Reactions Section */
+.figma-arrival-card__feedback-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.figma-arrival-card__feedback-lbl {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d8b4fe;
+  padding-left: 2px;
+}
+
+.figma-arrival-card__reactions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.figma-arrival-card__reaction-btn {
+  background-color: #391873;
+  border: none;
+  border-radius: 18px;
+  padding: 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.figma-arrival-card__reaction-btn:hover {
+  transform: translateY(-2px);
+  background-color: #431d87;
+}
+
+.figma-arrival-card__emoji {
+  font-size: 26px;
+  line-height: 1;
+}
+
+.figma-arrival-card__reaction-lbl {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
 }

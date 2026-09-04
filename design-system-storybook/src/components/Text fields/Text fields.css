@@ -1,4 +1,4 @@
-/* Text fields CSS - Synchronized with Figma Node ID: 46:4414 */
+/* Text fields CSS - Synchronized with exact Figma Node ID: 46:4414 specifications */
 
 .figma-textfield {
   display: flex;
@@ -15,7 +15,7 @@
   font-family: Inter, sans-serif;
   font-size: 16px; /* Exact Figma FontSize: 16px */
   font-weight: 500; /* Exact Figma FontWeight: 500 */
-  color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Fill: --uedp-primary-100 */
+  color: #2e1065; /* Exact Figma Fill: #2e1065 */
   line-height: 1.2;
 }
 
@@ -26,10 +26,10 @@
   width: 100%;
 }
 
-/* Frame 2 Input Container: radius=25px, padding=8px 20px */
+/* Input Container: radius=25px, padding=8px 20px */
 .figma-textfield__input {
   width: 100%;
-  height: 40px;
+  height: 37px;
   padding: 8px 20px;
   border-radius: 25px; /* Exact Figma CornerRadius: 25px */
   font-family: Inter, sans-serif;
@@ -41,52 +41,75 @@
   border: 1px solid transparent;
 }
 
+/* Blinking Cursor caret for Active state */
+@keyframes figma-textfield-cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.figma-textfield__cursor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 18px;
+  background-color: #2e1065;
+  animation: figma-textfield-cursor-blink 1s step-end infinite;
+  pointer-events: none;
+}
+
 /* VARIANT: State=Default (Node 46:4413) */
 .figma-textfield--default .figma-textfield__label {
-  color: var(--uedp-primary-100, #dbeafe);
+  color: #2e1065;
 }
 .figma-textfield--default .figma-textfield__input {
-  background-color: var(--uedp-primary-400, #60a5fa); /* Exact Figma Fill: --uedp-primary-400 */
-  color: var(--uedp-primary-500, #3b82f6); /* Exact Figma Text Fill: --uedp-primary-500 */
+  background-color: #e9d5ff; /* Exact Figma Fill: #e9d5ff */
+  color: #2e1065;
+  border-color: transparent;
   padding: 8px 28px;
 }
 .figma-textfield--default .figma-textfield__input::placeholder {
-  color: var(--uedp-primary-500, #3b82f6);
-}
-
-/* VARIANT: State=Active (Node 46:4408) */
-.figma-textfield--active .figma-textfield__label {
-  color: var(--uedp-primary-100, #dbeafe);
-}
-.figma-textfield--active .figma-textfield__input {
-  background-color: var(--uedp-primary-500, #3b82f6); /* Exact Figma Fill: --uedp-primary-500 */
-  border-color: var(--uedp-primary-600, #2563eb); /* Exact Figma Stroke: --uedp-primary-600 */
-  color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Text Fill: --uedp-primary-100 */
-}
-.figma-textfield--active .figma-textfield__input::placeholder {
-  color: var(--uedp-primary-100, #dbeafe);
-}
-
-/* VARIANT: State=Fillled (Node 46:4410) */
-.figma-textfield--fillled .figma-textfield__label,
-.figma-textfield--filled .figma-textfield__label {
-  color: var(--uedp-primary-100, #dbeafe);
-}
-.figma-textfield--fillled .figma-textfield__input,
-.figma-textfield--filled .figma-textfield__input {
-  background-color: var(--uedp-primary-500, #3b82f6); /* Exact Figma Fill: --uedp-primary-500 */
-  border-color: var(--uedp-primary-600, #2563eb); /* Exact Figma Stroke: --uedp-primary-600 */
-  color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Text Fill: --uedp-primary-100 */
+  color: #d8b4fe; /* Exact Figma Fill: #d8b4fe */
+  opacity: 1;
 }
 
 /* VARIANT: State=Pressed (Node 46:4409) */
 .figma-textfield--pressed .figma-textfield__label {
-  color: var(--uedp-primary-100, #dbeafe);
+  color: #2e1065;
 }
 .figma-textfield--pressed .figma-textfield__input {
-  background-color: var(--uedp-primary-500, #3b82f6); /* Exact Figma Fill: --uedp-primary-500 */
-  border-color: var(--uedp-primary-600, #2563eb); /* Exact Figma Stroke: --uedp-primary-600 */
-  color: var(--uedp-primary-400, #60a5fa); /* Exact Figma Text Fill: --uedp-primary-400 */
+  background-color: #d8b4fe; /* Exact Figma Fill: #d8b4fe */
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+  color: #e9d5ff;
+}
+.figma-textfield--pressed .figma-textfield__input::placeholder {
+  color: #e9d5ff; /* Exact Figma Fill: #e9d5ff */
+  opacity: 1;
+}
+
+/* VARIANT: State=Filled / State=Fillled (Node 46:4410) */
+.figma-textfield--filled .figma-textfield__label,
+.figma-textfield--fillled .figma-textfield__label {
+  color: #2e1065;
+}
+.figma-textfield--filled .figma-textfield__input,
+.figma-textfield--fillled .figma-textfield__input {
+  background-color: #d8b4fe; /* Exact Figma Fill: #d8b4fe */
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+  color: #2e1065; /* Exact Figma Text Fill: #2e1065 */
+}
+
+/* VARIANT: State=Active (Node 46:4408) */
+.figma-textfield--active .figma-textfield__label {
+  color: #2e1065;
+}
+.figma-textfield--active .figma-textfield__input {
+  background-color: #d8b4fe; /* Exact Figma Fill: #d8b4fe */
+  border-color: #c084fc; /* Exact Figma Stroke: #c084fc */
+  color: #2e1065; /* Exact Figma Text Fill: #2e1065 */
+}
+.figma-textfield--active .figma-textfield__input::placeholder {
+  color: #2e1065;
 }
 
 /* VARIANT: State=Disabled (Node 46:4411) */
@@ -101,6 +124,7 @@
 }
 .figma-textfield--disabled .figma-textfield__input::placeholder {
   color: #c4b5fd;
+  opacity: 1;
 }
 
 /* VARIANT: State=Error (Node 46:4412) */
@@ -114,6 +138,7 @@
 }
 .figma-textfield--error .figma-textfield__input::placeholder {
   color: #f43f5e;
+  opacity: 1;
 }
 
 /* Error Subtext: font=Inter, size=12px, weight=500, color=#f43f5e */

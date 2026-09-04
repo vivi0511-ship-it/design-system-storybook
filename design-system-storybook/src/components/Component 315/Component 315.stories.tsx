@@ -1,34 +1,33 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Component315 } from './Component 315';
+import { ArrivalCard } from '../Arrival card/Arrival card';
 
-const meta: Meta<typeof Component315> = {
+const meta: Meta<typeof ArrivalCard> = {
   title: 'Figma Components/Component 315',
-  component: Component315,
+  component: ArrivalCard,
   tags: ['autodocs'],
   argTypes: {
-    label: { control: { type: 'text' } },
-    value: { control: { type: 'text' } },
-    trendValue: { control: { type: 'text' } },
-    trendDirection: {
-      control: { type: 'select' },
-      options: ['up', 'down', 'neutral'],
-    },
-    subtext: { control: { type: 'text' } },
+    title: { control: { type: 'text' } },
+    subtitle: { control: { type: 'text' } },
+    destination: { control: { type: 'text' } },
+    tripTime: { control: { type: 'text' } },
+    distance: { control: { type: 'text' } },
+    safetyScore: { control: { type: 'text' } },
   },
   parameters: {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Component 315\`
+### Figma Component Specs: \`Arrival Card\` / \`Component 315\` (image_0.png)
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
-| :--- | :--- | :--- |
-| **Card Background** | \`var(--uedp-slate-800)\` (\`#1e293b\`) | — |
-| **Border Radius** | \`var(--uedp-radii-xl)\` (\`16px\`) | — |
-| **Header Gap** | \`var(--uedp-spacing-3)\` (\`12px\`) | — |
-| **Value Font Size** | \`var(--uedp-typography-font-size-2xl)\` | \`24px\` bold |
-| **Icon Container Size** | — | \`36px x 36px\` hardcoded |
-| **Figma Layer Name** | \`Component 315\` | Preserved as-is |
+| Element | Color / Specs |
+| :--- | :--- |
+| **Card Fill** | \`#551ba8\` (Deep Purple) |
+| **Header Checkmark** | \`#ffd000\` Yellow Circle |
+| **Title** | \`#ffd000\` Bold Montserrat |
+| **Location Badge** | \`#311059\` "Mrug Crafts" |
+| **Trip Stats** | 5 min, 700m, 3.9 Safety score |
+| **Safety Check-in** | "I am safe" & "Need help" pill buttons |
+| **Route Reactions** | Safe (😁), Unsafe (😟), Ok (😐), Report (🚨) |
         `,
       },
     },
@@ -36,24 +35,15 @@ const meta: Meta<typeof Component315> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof Component315>;
+type Story = StoryObj<typeof ArrivalCard>;
 
-export const Default: Story = {
+export const ArrivalCardView: Story = {
   args: {
-    label: 'Total Yield Volume',
-    value: '48,250 Tons',
-    trendValue: '+14.2%',
-    trendDirection: 'up',
-    subtext: 'vs. previous harvest cycle',
-  },
-};
-
-export const NegativeTrend: Story = {
-  args: {
-    label: 'Water Deficit Index',
-    value: '18.4 mm',
-    trendValue: '-5.8%',
-    trendDirection: 'down',
-    subtext: 'critical threshold warning',
+    title: "You've arrived!",
+    subtitle: "You reached your destination safe.",
+    destination: "Mrug Crafts",
+    tripTime: "5 min",
+    distance: "700m",
+    safetyScore: "3.9",
   },
 };

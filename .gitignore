@@ -25,3 +25,7 @@ __pycache__/
 .env
 .env.local
 .env.*.local
+
+# Scratch directory
+scratch/
+

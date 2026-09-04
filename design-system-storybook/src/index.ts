@@ -21,3 +21,5 @@ export * from './components/Location card 1/Location card 1';
 export * from './components/Questionnaire card/Questionnaire card';
 export * from './components/Arrival card/Arrival card';
 export * from './components/Incident heat map card/Incident heat map card';
+export * from './components/PillComponentGrid/PillComponentGrid';
+

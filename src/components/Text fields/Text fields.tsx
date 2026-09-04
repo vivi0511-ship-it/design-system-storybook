@@ -6,7 +6,7 @@ export interface TextFieldsProps {
   state?: 'Default' | 'Active' | 'Filled' | 'Pressed' | 'Disabled' | 'Error';
   /** Field label heading content */
   label?: string;
-  /** Input placeholder or value text */
+  /** Input placeholder text */
   placeholder?: string;
   /** Input value string */
   value?: string;
@@ -24,20 +24,23 @@ export interface TextFieldsProps {
  * - 326px max-width container, 10px vertical gap
  * - 25px rounded pill container shape (`border-radius: 25px`)
  * - 16px Inter 500 typography for label and input
- * - Exact variant fills (#60a5fa, #3b82f6, #ddd6fe, #ffe4e6) and text colors (#dbeafe, #c4b5fd, #f43f5e)
+ * - Exact purple/lavender variant fills (#e9d5ff, #d8b4fe, #ddd6fe, #ffe4e6) and text colors (#2e1065, #c4b5fd, #f43f5e)
  */
 export const TextFields: React.FC<TextFieldsProps> = ({
   state = 'Default',
   label = 'Heading',
   placeholder = 'Fill me',
-  value: initialValue = '',
+  value,
   errorText = 'Error text',
   onChange,
 }) => {
-  const [val, setVal] = useState(initialValue);
+  const isFilledState = state === 'Filled' || state === 'Active' || state === 'Error';
+  const defaultVal = isFilledState ? (value !== undefined ? value : 'Something') : (value || '');
+  const [val, setVal] = useState(defaultVal);
 
   const isError = state === 'Error';
   const isDisabled = state === 'Disabled';
+  const displayVal = value !== undefined ? value : val;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setVal(e.target.value);
@@ -51,6 +54,10 @@ export const TextFields: React.FC<TextFieldsProps> = ({
     .filter(Boolean)
     .join(' ');
 
+  const textLength = displayVal ? displayVal.length : 0;
+  // Estimate caret offset based on 16px Inter font width (~9.5px per char) + 20px padding
+  const cursorOffset = Math.min(20 + textLength * 9.5, 280);
+
   return (
     <div className={containerClasses} data-node-id="46:4414">
       {label && <label className="figma-textfield__label">{label}</label>}
@@ -61,9 +68,14 @@ export const TextFields: React.FC<TextFieldsProps> = ({
           onChange={handleChange}
           placeholder={placeholder}
           type="text"
-          value={val}
+          value={displayVal}
         />
-        {state === 'Active' && <span className="figma-textfield__cursor" />}
+        {state === 'Active' && (
+          <span
+            className="figma-textfield__cursor"
+            style={{ left: `${cursorOffset}px` }}
+          />
+        )}
       </div>
       {isError && errorText && <span className="figma-textfield__error-text">{errorText}</span>}
     </div>

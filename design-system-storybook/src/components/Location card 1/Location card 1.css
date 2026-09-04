@@ -1,89 +1,167 @@
-/* Location card 1 CSS - Synchronized with Figma Node ID: 51:4530 */
+/* Location card 1 CSS - Synchronized with image_0.png & Figma Node ID: 51:4530 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-.figma-loc-card {
+.loc-card-1 {
   display: flex;
-  background-color: #faf5ff; /* Light Figma Card Fill */
-  border: 1.5px solid #8a38f5; /* Exact Figma Variant Stroke: #8a38f5 */
-  border-radius: var(--uedp-radii-xl, 16px);
+  flex-direction: column;
+  width: 320px;
+  border-radius: 24px;
   overflow: hidden;
+  background-color: #ede4ff; /* Light lavender Figma card background */
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.loc-card-1--default {
+  border: 1.5px solid transparent;
+}
+
+.loc-card-1--pressed {
+  border: 2px solid #5b21b6; /* Exact Figma Variant Stroke #5b21b6 / #4c1d95 */
+}
+
+.loc-card-1:hover {
+  transform: translateY(-2px);
+}
+
+/* Image Thumbnail Section */
+.loc-card-1__media {
   width: 100%;
-  max-width: 360px;
-  box-shadow: var(--uedp-shadows-md, 0 4px 6px -1px rgba(0,0,0,0.1));
-  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  height: 230px;
+  overflow: hidden;
+  background-color: #fce7f3;
 }
 
-.figma-loc-card--pressed {
-  border-color: #7c3aed;
-  transform: scale(0.98);
-}
-
-.figma-loc-card__media {
-  position: relative;
-  width: 110px;
-  height: 110px;
-  flex-shrink: 0;
-}
-
-.figma-loc-card__media img {
+.loc-card-1__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-.figma-loc-card__rating {
-  position: absolute;
-  bottom: 6px;
-  left: 6px;
-  background-color: rgba(54, 32, 97, 0.85);
-  padding: 2px 6px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.figma-loc-card__details {
-  padding: 12px;
+/* Card Body Section */
+.loc-card-1__body {
+  padding: 16px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
+  gap: 8px;
+  background-color: #ede4ff;
 }
 
-.figma-loc-card__name {
+/* Title */
+.loc-card-1__title {
   margin: 0;
-  font-size: var(--uedp-typography-font-size-md, 16px);
-  font-weight: var(--uedp-typography-font-weight-bold, 700);
-  color: #362061; /* Exact Figma Text Fill: #362061 */
+  font-size: 20px;
+  font-weight: 600;
+  color: #362061; /* Deep purple headline */
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
-.figma-loc-card__distance {
+/* Safety Score Row */
+.loc-card-1__safety-row {
   display: flex;
   align-items: center;
-  gap: 4px;
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  color: #5f507e; /* Exact Figma Text Fill: #5f507e */
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #60507e; /* Medium purple label */
+}
+
+.loc-card-1__safety-label {
+  color: #60507e;
+  font-size: 13px;
   font-weight: 500;
 }
 
-.figma-loc-card__action-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background-color: #362061; /* Exact Figma Fill: #362061 */
-  color: #ffffff;
-  border: none;
-  border-radius: var(--uedp-radii-md, 8px);
-  padding: 6px 12px;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  width: fit-content;
+.loc-card-1__score {
+  font-weight: 700;
+  color: #362061;
+  font-size: 14px;
+  margin-left: 2px;
 }
 
-.figma-loc-card__action-btn:hover {
-  background-color: #2a184c;
+.loc-card-1__star-icon {
+  flex-shrink: 0;
+}
+
+/* Woman Owned Badge */
+.loc-card-1__woman-owned {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+.loc-card-1__woman-owned-text {
+  font-size: 11px;
+  font-weight: 500;
+  color: #60507e;
+}
+
+/* Category */
+.loc-card-1__category {
+  font-size: 13px;
+  font-weight: 500;
+  color: #60507e;
+}
+
+/* Footer Row */
+.loc-card-1__footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.loc-card-1__status-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.loc-card-1__status {
+  font-weight: 700;
+  color: #16a34a; /* Open green */
+}
+
+.loc-card-1__dot {
+  color: #60507e;
+}
+
+.loc-card-1__closing {
+  color: #60507e;
+}
+
+.loc-card-1__distance {
+  font-weight: 600;
+  color: #5b21b6;
+}
+
+/* Matrix Wrapper Matching image_0.png */
+.loc-card-1-matrix-wrapper {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.loc-card-1-matrix-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 32px;
+  background-color: #ffffff;
+  border: 2px dashed #9333ea; /* Subtle purple dashed border matching image_0.png */
+  border-radius: 12px;
 }
