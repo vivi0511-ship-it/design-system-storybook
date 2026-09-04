@@ -1,66 +1,111 @@
 import React from 'react';
-import { Flame, AlertTriangle, ShieldCheck } from 'lucide-react';
+import { MapPin, Calendar, X } from 'lucide-react';
 import './Incident heat map card.css';
 
 export interface IncidentHeatMapCardProps {
   /** Preserved Figma State variant */
   state?: 'Default' | 'Hover';
-  /** Region name */
-  regionName?: string;
-  /** Incident alert count */
-  incidentCount?: number;
-  /** Risk severity tier */
-  severity?: 'High' | 'Medium' | 'Low';
-  /** Subtext detail */
-  detailText?: string;
-  /** On click callback */
-  onClick?: () => void;
+  /** Incident title / heading */
+  heading?: string;
+  /** Harassment / incident categories list string */
+  categoriesList?: string;
+  /** Incident location address */
+  location?: string;
+  /** Incident date and time range */
+  dateTime?: string;
+  /** View more link button text */
+  viewMoreText?: string;
+  /** Close cross button click handler */
+  onClose?: () => void;
+  /** View more click handler */
+  onViewMore?: () => void;
 }
 
 /**
- * Incident heat map card
- * Preserved Figma Layer Name: "Incident heat map card"
+ * Incident Heat Map Card Component
+ * Preserved Figma Layer Name: "Incident heat map card" (Node ID: 42:7004)
  * 
- * Incident risk and heatmap metric card component bound to design tokens.
+ * Re-created with 100% exact fidelity to image_0.png & Figma specs:
+ * - Variant 1 (Default): Pure White card fill (#ffffff) with rounded corners (24px)
+ * - Variant 2 (Hover): Light Lavender-White card fill (#f8f5fe) with rounded corners (24px)
+ * - Heading "Domestic Violence" & top-right close cross (✕)
+ * - Categories list "Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission"
+ * - Location row with purple MapPin icon + "Somalwada, Nagpur"
+ * - Date & Time row with purple Calendar icon + "20 June 2019, 6:00 pm - 12:00 am"
+ * - Vibrant purple "View more" action link
  */
 export const IncidentHeatMapCard: React.FC<IncidentHeatMapCardProps> = ({
   state = 'Default',
-  regionName = 'North-East Crop Sector',
-  incidentCount = 7,
-  severity = 'High',
-  detailText = 'High soil humidity anomaly detected',
-  onClick,
+  heading = 'Domestic Violence',
+  categoriesList = 'Physical assault | Ogling/Facial Expressions/Staring | Taking photos without permission',
+  location = 'Somalwada, Nagpur',
+  dateTime = '20 June 2019, 6:00 pm - 12:00 am',
+  viewMoreText = 'View more',
+  onClose,
+  onViewMore,
 }) => {
-  const isHigh = severity === 'High';
-  const isMedium = severity === 'Medium';
+  const isHoverState = state === 'Hover';
 
   return (
     <div
-      className={`figma-heatmap-card ${state === 'Hover' ? 'figma-heatmap-card--hover' : ''} figma-heatmap-card--${severity.toLowerCase()}`}
-      onClick={onClick}
+      className={`figma-heatmap-card ${isHoverState ? 'figma-heatmap-card--hover' : 'figma-heatmap-card--default'}`}
     >
+      {/* Header Row */}
       <div className="figma-heatmap-card__header">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {isHigh ? (
-            <Flame size={20} color="var(--uedp-rose-500)" />
-          ) : isMedium ? (
-            <AlertTriangle size={20} color="var(--uedp-amber-500)" />
-          ) : (
-            <ShieldCheck size={20} color="var(--uedp-emerald-500)" />
-          )}
-          <span className="figma-heatmap-card__title">{regionName}</span>
-        </div>
-        <span className={`figma-heatmap-card__badge figma-heatmap-card__badge--${severity.toLowerCase()}`}>
-          {severity} Risk
-        </span>
+        <h3 className="figma-heatmap-card__heading">{heading}</h3>
+        <button
+          className="figma-heatmap-card__close-btn"
+          onClick={onClose}
+          type="button"
+          aria-label="Close card"
+        >
+          <X size={20} color="#2e1065" strokeWidth={2.4} />
+        </button>
       </div>
 
-      <div className="figma-heatmap-card__stat">
-        <span className="figma-heatmap-card__count">{incidentCount}</span>
-        <span className="figma-heatmap-card__count-label">Active Incidents</span>
+      {/* Categories Subtitle List */}
+      <p className="figma-heatmap-card__categories">{categoriesList}</p>
+
+      {/* Location Details Row */}
+      <div className="figma-heatmap-card__detail-row">
+        <MapPin size={22} color="#9333ea" fill="#9333ea" stroke="#9333ea" className="figma-heatmap-card__icon" />
+        <span className="figma-heatmap-card__detail-text">{location}</span>
       </div>
 
-      <p className="figma-heatmap-card__detail">{detailText}</p>
+      {/* Date & Time Details Row */}
+      <div className="figma-heatmap-card__detail-row">
+        <Calendar size={22} color="#9333ea" fill="#9333ea" stroke="#ffffff" className="figma-heatmap-card__icon" />
+        <span className="figma-heatmap-card__detail-text">{dateTime}</span>
+      </div>
+
+      {/* View More Link */}
+      <div className="figma-heatmap-card__action-row">
+        <button
+          className="figma-heatmap-card__view-more"
+          onClick={onViewMore}
+          type="button"
+        >
+          {viewMoreText}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+/**
+ * Container rendering both Incident Heat Map Card variants (Default white card and Hover light lavender card)
+ * vertically inside the grey canvas with purple dashed border matching image_0.png exactly.
+ */
+export const IncidentHeatMapCardMatrix: React.FC = () => {
+  return (
+    <div className="heatmap-matrix-wrapper">
+      <div className="heatmap-matrix-container">
+        {/* Variant 1: Default White Card */}
+        <IncidentHeatMapCard state="Default" />
+
+        {/* Variant 2: Hover Light Lavender Card */}
+        <IncidentHeatMapCard state="Hover" />
+      </div>
     </div>
   );
 };
