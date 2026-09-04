@@ -1,43 +1,96 @@
-/* Navigation bar CSS - Synchronized with Figma Node ID: 51:199 */
+/* Navigation bar CSS - Synchronized with exact Figma Node ID: 51:199 specifications */
 
 .figma-navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: #362061; /* Exact Figma Frame Fill: #362061 */
-  border: 1.5px solid #8a38f5; /* Exact Figma Variant Stroke: #8a38f5 */
-  padding: 8px 16px;
+  justify-content: space-evenly;
+  background-color: #f3e8ff; /* Exact Figma Frame Fill: #f3e8ff */
   width: 100%;
-  max-width: 420px;
-  border-radius: var(--uedp-radii-xl, 16px);
-  box-shadow: var(--uedp-shadows-lg, 0 10px 15px -3px rgba(0,0,0,0.1));
-  font-family: var(--uedp-typography-font-family-base, Inter, sans-serif);
+  max-width: 428px; /* Exact Figma BoundingBox Width: 428px */
+  height: 97px; /* Exact Figma BoundingBox Height: 97px */
+  padding: 8px 12px;
+  box-sizing: border-box;
+  font-family: Montserrat, Inter, system-ui, sans-serif;
+  user-select: none;
 }
 
+/* Base item button styling */
 .figma-navbar__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 4px;
-  background: none;
+  background: transparent;
   border: none;
-  color: var(--uedp-primary-100, #dbeafe); /* Exact Figma Inactive Fill: --uedp-primary-100 */
   cursor: pointer;
-  padding: 6px 12px;
-  border-radius: var(--uedp-radii-md, 8px);
-  transition: all 0.15s ease-in-out;
+  padding: 0;
+  margin: 0;
+  color: #c084fc; /* Exact Figma Inactive Fill: #c084fc */
+  transition: all 0.2s ease-in-out;
+  min-width: 54px;
 }
 
-.figma-navbar__item:hover {
-  color: #ffffff;
+/* Icon pill container */
+.figma-navbar__icon-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 36px;
+  border-radius: 50px; /* Exact Figma CornerRadius: 50px */
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Label text: Montserrat, 12px, weight 600 */
+.figma-navbar__label {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px; /* Exact Figma FontSize: 12px */
+  font-weight: 600; /* Exact Figma FontWeight: 600 */
+  color: #c084fc; /* Exact Figma Fill: #c084fc */
+  line-height: 1.2;
+}
+
+/* ACTIVE ITEM STATE */
+.figma-navbar__item--active .figma-navbar__icon-pill {
+  background-color: #ffffff; /* Exact Figma Active Pill Fill: #ffffff / #faf5ff */
 }
 
 .figma-navbar__item--active {
-  color: #ffffff;
-  background-color: var(--uedp-primary-600, #2563eb); /* Exact Figma Active Fill: --uedp-primary-600 */
+  color: #2e1065; /* Exact Figma Active Text & Icon Fill: #2e1065 / #362061 */
 }
 
-.figma-navbar__label {
-  font-size: var(--uedp-typography-font-size-xs, 12px);
-  font-weight: var(--uedp-typography-font-weight-medium, 500);
+.figma-navbar__item--active .figma-navbar__label {
+  color: #2e1065; /* Exact Figma Active Label Fill: #2e1065 */
+  font-weight: 700;
+}
+
+/* CENTER SOS BUTTON */
+.figma-navbar__sos-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff3838; /* Exact Figma SOS Fill: #ff3838 */
+  color: #ffffff; /* Exact Figma SOS Text Fill: #ffffff */
+  font-family: Inter, sans-serif;
+  font-size: 24px; /* Exact Figma FontSize: 24px */
+  font-weight: 700; /* Exact Figma FontWeight: 500/700 */
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+  box-shadow: 0 4px 12px rgba(255, 56, 56, 0.35);
+  flex-shrink: 0;
+}
+
+.figma-navbar__sos-btn:hover {
+  background-color: #e62e2e;
+  transform: scale(1.04);
+}
+
+.figma-navbar__sos-btn:active {
+  transform: scale(0.96);
 }
