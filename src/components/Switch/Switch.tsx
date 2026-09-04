@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import './Switch.css';
 
 export interface SwitchProps {
-  /** Preserved Figma variant property: Property 1 */
+  /** Preserved Figma variant property: Property 1 (Node ID: 42:7043) */
   property1?: 'On' | 'Off';
   /** Boolean toggle state */
   checked?: boolean;
-  /** Label tag */
+  /** Label text content */
   label?: string;
-  /** Disabled state */
+  /** Disabled interaction state */
   disabled?: boolean;
-  /** Toggle handler */
+  /** Toggle callback */
   onChange?: (checked: boolean) => void;
 }
 
@@ -18,26 +18,33 @@ export interface SwitchProps {
  * Switch
  * Preserved Figma Layer Name: "Switch" (Node ID: 42:7043)
  * 
- * Exact 36px x 18px toggle switch synchronized with Figma node 42:7043 variant properties,
- * padding dimensions (3px top, 4px/20px horizontal), 10px thumb geometry, and bound variables.
+ * Synchronized with exact Figma node 42:7043 specifications:
+ * - 36px x 18px track with 20px border radius
+ * - 10px x 10px circular thumb
+ * - Property 1 = On (light lavender track #f3e8ff, purple border #c084fc, purple thumb #c084fc on right)
+ * - Property 1 = Off (medium purple track #d8b4fe, light lavender border #f3e8ff, light lavender thumb #f3e8ff on left)
  */
 export const Switch: React.FC<SwitchProps> = ({
   property1,
-  checked,
-  label = 'Enable Feature',
+  checked: controlledChecked,
+  label,
   disabled = false,
   onChange,
 }) => {
-  const isInitiallyOn = property1 ? property1 === 'On' : Boolean(checked);
-  const [isChecked, setIsChecked] = useState(isInitiallyOn);
+  const isInitiallyOn = property1 !== undefined ? property1 === 'On' : Boolean(controlledChecked);
+  const [internalChecked, setInternalChecked] = useState(isInitiallyOn);
 
-  const activeState = property1 !== undefined ? (isChecked ? 'On' : 'Off') : isChecked;
+  const isChecked = controlledChecked !== undefined
+    ? controlledChecked
+    : property1 !== undefined
+    ? property1 === 'On'
+    : internalChecked;
 
   const handleToggle = () => {
     if (disabled) return;
-    const nextState = !isChecked;
-    setIsChecked(nextState);
-    if (onChange) onChange(nextState);
+    const next = !isChecked;
+    setInternalChecked(next);
+    if (onChange) onChange(next);
   };
 
   return (

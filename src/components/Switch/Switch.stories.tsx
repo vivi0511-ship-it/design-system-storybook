@@ -13,15 +13,15 @@ const meta: Meta<typeof Switch> = {
     },
     checked: {
       control: { type: 'boolean' },
-      description: 'Interactive toggle state',
+      description: 'Interactive boolean state',
     },
     label: {
       control: { type: 'text' },
-      description: 'Label text content',
+      description: 'Optional label text',
     },
     disabled: {
       control: { type: 'boolean' },
-      description: 'Disabled state control',
+      description: 'Disabled state',
     },
   },
   parameters: {
@@ -30,18 +30,15 @@ const meta: Meta<typeof Switch> = {
         component: `
 ### Figma Component Specs: \`Switch\` (Node ID: \`42:7043\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Exact Figma Value |
+| Figma Layer Property | CSS Value / Colors | Exact Figma Spec |
 | :--- | :--- | :--- |
 | **Figma Node ID** | \`42:7043\` | Preserved |
-| **Track Dimensions** | \`width: 36px\`, \`height: 18px\` | Exact \`36px x 18px\` |
-| **Track Corner Radius**| \`20px\` | Exact \`20px\` |
-| **Thumb Geometry** | \`width: 10px\`, \`height: 10px\` | Exact \`10px x 10px\` |
-| **ON Padding (42:7042)**| \`padding: 3px 22px 5px 4px\` | \`left: 4px\` |
-| **OFF Padding (42:7041)**| \`padding: 3px 4px 5px 20px\` | \`left: 20px\` |
-| **ON Track Fill** | \`var(--uedp-primary-300)\` (\`VariableID:1:204\`) | \`#93c5fd\` |
-| **ON Track Stroke** | \`var(--uedp-primary-600)\` (\`VariableID:1:207\`) | \`#2563eb\` |
-| **OFF Track Fill** | \`var(--uedp-primary-500)\` (\`VariableID:1:206\`) | \`#3b82f6\` |
-| **OFF Track Stroke** | \`var(--uedp-primary-300)\` (\`VariableID:1:204\`) | \`#93c5fd\` |
+| **Track Geometry** | \`36px x 18px\` | \`border-radius: 20px\` |
+| **Thumb Geometry** | \`10px x 10px\` | Circle \`border-radius: 50%\` |
+| **ON Track Fill** | \`#f3e8ff\` | Stroke \`#c084fc\` |
+| **ON Thumb Fill** | \`#c084fc\` | Position \`left: 20px\` |
+| **OFF Track Fill** | \`#d8b4fe\` | Stroke \`#f3e8ff\` |
+| **OFF Thumb Fill** | \`#f3e8ff\` | Position \`left: 4px\` |
         `,
       },
     },
@@ -51,16 +48,37 @@ const meta: Meta<typeof Switch> = {
 export default meta;
 type Story = StoryObj<typeof Switch>;
 
-export const OffVariant: Story = {
-  args: {
-    property1: 'Off',
-    label: 'Switch (Property 1 = Off)',
-  },
-};
-
 export const OnVariant: Story = {
   args: {
     property1: 'On',
-    label: 'Switch (Property 1 = On)',
   },
+};
+
+export const OffVariant: Story = {
+  args: {
+    property1: 'Off',
+  },
+};
+
+export const AllStatesPreview: Story = {
+  render: () => (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '24px',
+        padding: '24px 32px',
+        border: '2px dashed #8a38f5',
+        borderRadius: '16px',
+        backgroundColor: '#ffffff',
+        width: 'fit-content',
+        boxSizing: 'border-box',
+      }}
+
+    >
+      <Switch property1="On" />
+      <Switch property1="Off" />
+    </div>
+  ),
 };
