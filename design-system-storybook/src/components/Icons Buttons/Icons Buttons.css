@@ -1,79 +1,149 @@
-/* Icons Buttons CSS - Bound to Figma Tokens */
+/* Icons Buttons CSS - Synchronized with exact Figma Node ID: 41:6814 specifications */
 
-.figma-icon-btn {
+.figma-icon-btn-wrapper {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border-radius: var(--uedp-radii-md, 8px);
-  border: 1px solid transparent;
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
-  outline: none;
+  gap: 6px;
+  font-family: Montserrat, Inter, system-ui, sans-serif;
+  user-select: none;
 }
 
-/* Sizes */
+/* Circular Button Base */
+.figma-icon-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Exact Figma CornerRadius: 50% circle */
+  border: 2px solid transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.15s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* SIZES */
 .figma-icon-btn--tiny {
-  width: 24px;
-  height: 24px;
-  padding: 4px;
+  width: 42px;
+  height: 42px;
+}
+.figma-icon-btn--tiny .figma-icon-btn__caption {
+  font-size: 5px;
 }
 
 .figma-icon-btn--small {
-  width: 32px;
-  height: 32px;
-  padding: 6px;
+  width: 56px;
+  height: 56px;
+}
+.figma-icon-btn--small .figma-icon-btn__caption {
+  font-size: 7px;
 }
 
 .figma-icon-btn--medium {
-  width: 40px;
-  height: 40px;
-  padding: 8px;
+  width: 70px;
+  height: 70px;
+}
+.figma-icon-btn--medium .figma-icon-btn__caption {
+  font-size: 8px;
 }
 
 .figma-icon-btn--large {
-  width: 48px;
-  height: 48px;
-  padding: 10px;
+  width: 84px;
+  height: 84px;
+}
+.figma-icon-btn--large .figma-icon-btn__caption {
+  font-size: 10px;
 }
 
 .figma-icon-btn--giant {
-  width: 56px;
-  height: 56px;
-  padding: 12px;
+  width: 100px;
+  height: 100px;
+}
+.figma-icon-btn--giant .figma-icon-btn__caption {
+  font-size: 12px;
 }
 
-/* Types */
+/* Caption Inside Circle */
+.figma-icon-btn__caption {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 1px;
+}
+
+/* Sub-label text below circle */
+.figma-icon-btn__label {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px; /* Exact Figma FontSize: 11.25-12px */
+  font-weight: 600; /* Exact Figma FontWeight: 600 */
+  color: #2e1065; /* Exact Figma Label Text Fill: #2e1065 */
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* TYPE: Primary */
 .figma-icon-btn--primary {
-  background-color: var(--uedp-primary-600, #2563eb);
+  background-color: #2e1065; /* Exact Figma Fill: #2e1065 */
   color: #ffffff;
 }
-
 .figma-icon-btn--primary:hover,
-.figma-icon-btn--primary.figma-icon-btn--state-hover {
-  background-color: var(--uedp-primary-700, #1d4ed8);
+.figma-icon-btn--primary.figma-icon-btn--hover {
+  background-color: #362061;
 }
-
-.figma-icon-btn--primary.figma-icon-btn--state-selected {
-  background-color: var(--uedp-primary-800, #1e40af);
-  box-shadow: 0 0 0 2px var(--uedp-primary-300, #93c5fd);
+.figma-icon-btn--primary.figma-icon-btn--selected {
+  background-color: #2e1065;
+  border-color: #c4b5fd;
 }
-
-.figma-icon-btn--secondary {
-  background-color: var(--uedp-slate-800, #1e293b);
-  color: var(--uedp-primary-400, #60a5fa);
-  border-color: var(--uedp-slate-700, #334155);
-}
-
-.figma-icon-btn--tertiary {
-  background-color: transparent;
-  color: var(--uedp-slate-300, #cbd5e1);
-}
-
-.figma-icon-btn--disabled,
-.figma-icon-btn:disabled {
-  background-color: var(--uedp-slate-800, #1e293b) !important;
-  color: var(--uedp-slate-600, #475569) !important;
-  border-color: var(--uedp-slate-700, #334155) !important;
+.figma-icon-btn--primary.figma-icon-btn--disabled,
+.figma-icon-btn--primary:disabled {
+  background-color: #ddd6fe !important;
+  color: #c4b5fd !important;
+  border-color: transparent !important;
   cursor: not-allowed;
-  opacity: 0.5;
+}
+
+/* TYPE: Secondary */
+.figma-icon-btn--secondary {
+  background-color: #c084fc; /* Exact Figma Fill: #c084fc */
+  color: #2e1065;
+}
+.figma-icon-btn--secondary:hover,
+.figma-icon-btn--secondary.figma-icon-btn--hover {
+  background-color: #a855f7;
+}
+.figma-icon-btn--secondary.figma-icon-btn--selected {
+  background-color: #c084fc;
+  border-color: #2e1065;
+}
+.figma-icon-btn--secondary.figma-icon-btn--disabled,
+.figma-icon-btn--secondary:disabled {
+  background-color: #e9d5ff !important;
+  color: #c4b5fd !important;
+  border-color: transparent !important;
+  cursor: not-allowed;
+}
+
+/* TYPE: Tertiary */
+.figma-icon-btn--tertiary {
+  background-color: #ddd6fe; /* Exact Figma Fill: #ddd6fe */
+  color: #2e1065;
+}
+.figma-icon-btn--tertiary:hover,
+.figma-icon-btn--tertiary.figma-icon-btn--hover {
+  background-color: #c4b5fd;
+}
+.figma-icon-btn--tertiary.figma-icon-btn--selected {
+  background-color: #2e1065;
+  border-color: #c4b5fd;
+  color: #c4b5fd;
+}
+.figma-icon-btn--tertiary.figma-icon-btn--disabled,
+.figma-icon-btn--tertiary:disabled {
+  background-color: #ede9fe !important;
+  color: #ddd6fe !important;
+  border-color: transparent !important;
+  cursor: not-allowed;
 }

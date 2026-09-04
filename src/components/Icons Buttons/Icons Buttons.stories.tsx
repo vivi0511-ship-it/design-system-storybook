@@ -9,7 +9,7 @@ const meta: Meta<typeof IconsButtons> = {
     state: {
       control: { type: 'select' },
       options: ['Default', 'Hover', 'Selected', 'Disabled'],
-      description: 'Preserved Figma State variant',
+      description: 'Preserved Figma State variant (Node ID: 41:6814)',
     },
     type: {
       control: { type: 'select' },
@@ -21,24 +21,30 @@ const meta: Meta<typeof IconsButtons> = {
       options: ['Tiny', 'Small', 'Medium', 'Large', 'Giant'],
       description: 'Preserved Figma Size variant',
     },
-    icon: {
-      control: { type: 'select' },
-      options: ['star', 'settings', 'heart', 'bell', 'share'],
-      description: 'Icon element selection',
+    caption: {
+      control: { type: 'text' },
+      description: 'Inner circle caption text',
+    },
+    label: {
+      control: { type: 'text' },
+      description: 'Sub-label text below circular button',
     },
   },
   parameters: {
     docs: {
       description: {
         component: `
-### Figma Component Specs: \`Icons Buttons\`
+### Figma Component Specs: \`Icons Buttons\` (Node ID: \`41:6814\`)
 
-| Figma Layer Property | CSS Variable / Bound Value | Unbound / Hardcoded Fallback |
+| Figma Layer Property | CSS Value / Colors | Exact Figma Spec |
 | :--- | :--- | :--- |
-| **Primary Fill** | \`var(--uedp-primary-600)\` (\`#2563eb\`) | — |
-| **Icon Sizes** | \`var(--uedp-geometry-icon-*)\` | \`14px\` - \`28px\` |
-| **Border Radius** | \`var(--uedp-radii-md)\` (\`8px\`) | — |
-| **Figma Layer Name** | \`Icons Buttons\` | Preserved as-is |
+| **Figma Node ID** | \`41:6814\` | Preserved |
+| **Circle Sizes** | \`Tiny\` (42px), \`Small\` (56px), \`Medium\` (70px), \`Large\` (84px), \`Giant\` (100px) | \`border-radius: 50%\` |
+| **Primary Type** | Fill \`#2e1065\` | White/Light icon & caption |
+| **Secondary Type** | Fill \`#c084fc\` | Dark purple icon & caption |
+| **Tertiary Type** | Fill \`#ddd6fe\` | Dark purple icon & caption |
+| **Inner Elements** | \`mdi:car-police\` icon + \`Caption\` text | Centered in circle |
+| **Sub-Label** | Montserrat 12px weight 600 \`#2e1065\` | Below circular button |
         `,
       },
     },
@@ -53,24 +59,74 @@ export const DefaultPrimary: Story = {
     state: 'Default',
     type: 'Primary',
     size: 'Medium',
-    icon: 'star',
+    caption: 'Caption',
+    label: 'Text',
   },
 };
 
-export const SelectedState: Story = {
+export const SecondarySelected: Story = {
   args: {
     state: 'Selected',
-    type: 'Primary',
+    type: 'Secondary',
     size: 'Large',
-    icon: 'heart',
+    caption: 'Caption',
+    label: 'Text',
   },
 };
 
-export const SecondarySettings: Story = {
+export const TertiaryGiant: Story = {
   args: {
     state: 'Default',
-    type: 'Secondary',
-    size: 'Medium',
-    icon: 'settings',
+    type: 'Tertiary',
+    size: 'Giant',
+    caption: 'Caption',
+    label: 'Text',
+  },
+};
+
+export const AllVariantsMatrix: Story = {
+  render: () => {
+    const types: Array<'Primary' | 'Secondary' | 'Tertiary'> = ['Primary', 'Secondary', 'Tertiary'];
+    const states: Array<'Default' | 'Hover' | 'Selected' | 'Disabled'> = ['Default', 'Hover', 'Selected', 'Disabled'];
+    const sizes: Array<'Tiny' | 'Small' | 'Medium' | 'Large' | 'Giant'> = ['Tiny', 'Small', 'Medium', 'Large', 'Giant'];
+
+    return (
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '36px',
+          padding: '40px 28px',
+          border: '2px dashed #8a38f5',
+          borderRadius: '16px',
+          backgroundColor: '#ffffff',
+          width: 'fit-content',
+        }}
+      >
+        {types.map((t) =>
+          states.map((s) => (
+            <div
+              key={`${t}-${s}`}
+              style={{
+                display: 'flex',
+                alignItems: 'flex-end',
+                gap: '32px',
+              }}
+            >
+              {sizes.map((sz) => (
+                <IconsButtons
+                  key={`${t}-${s}-${sz}`}
+                  type={t}
+                  state={s}
+                  size={sz}
+                  caption="Caption"
+                  label="Text"
+                />
+              ))}
+            </div>
+          ))
+        )}
+      </div>
+    );
   },
 };
