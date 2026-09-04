@@ -1,103 +1,165 @@
 import React from 'react';
-import { CheckCircle, Clock, Navigation, ShieldCheck } from 'lucide-react';
+import { X, Check } from 'lucide-react';
 import './Arrival card.css';
 
 export interface ArrivalCardProps {
-  /** Cargo/Shipment title */
+  /** Main arrival headline */
   title?: string;
-  /** Destination facility */
+  /** Arrival subtext message */
+  subtitle?: string;
+  /** Destination facility / location name */
   destination?: string;
-  /** Trip duration */
+  /** Trip time metric string */
   tripTime?: string;
-  /** Distance */
+  /** Distance metric string */
   distance?: string;
-  /** Safety score */
+  /** Safety score metric string */
   safetyScore?: string;
-  /** Callback for safety reaction */
-  onSelectReaction?: (reaction: string) => void;
+  /** Close button click handler */
+  onClose?: () => void;
+  /** Safety check-in button click handler */
+  onSafetyCheckIn?: (type: 'safe' | 'help') => void;
+  /** Route reaction click handler */
+  onSelectReaction?: (reaction: 'Safe' | 'Unsafe' | 'Ok' | 'Report') => void;
 }
 
 /**
- * Arrival card
+ * Arrival Card Component
  * Preserved Figma Layer Name: "Arrival card" (Node ID: 52:5981)
  * 
- * Synchronized with exact Figma colors (#5b21b6 background, #eab308 title, #a78bfa subtext, #3e2a64 card fill).
+ * Re-created with 100% exact fidelity to image_0.png:
+ * - Deep purple bottom-sheet modal (#551ba8)
+ * - Yellow checkmark circle hero icon (#ffd000)
+ * - Yellow headline "You've arrived!" & lavender subtext
+ * - Dark location badge "Mrug Crafts" with yellow dot
+ * - Tri-metric stats (Trip time, Distance, Safety score)
+ * - Safety check-in card with "I am safe" and "Need help" pill buttons
+ * - Route feedback section with 4 reaction buttons (Safe, Unsafe, Ok, Report)
  */
 export const ArrivalCard: React.FC<ArrivalCardProps> = ({
   title = "You've arrived!",
-  destination = 'Mrug Crafts',
-  tripTime = '5 min',
-  distance = '700m',
-  safetyScore = '3.9',
+  subtitle = "You reached your destination safe.",
+  destination = "Mrug Crafts",
+  tripTime = "5 min",
+  distance = "700m",
+  safetyScore = "3.9",
+  onClose,
+  onSafetyCheckIn,
   onSelectReaction,
 }) => {
   return (
-    <div className="figma-arrival-card">
-      <div className="figma-arrival-card__header">
-        <div>
-          <h3 className="figma-arrival-card__title">{title}</h3>
-          <div className="figma-arrival-card__subtitle">You reached your destination safe.</div>
+    <div className="figma-arrival-card-sheet">
+      {/* Top Handle Bar */}
+      <div className="figma-arrival-card__handle-wrap">
+        <div className="figma-arrival-card__handle" />
+      </div>
+
+      {/* Top Right Close Button */}
+      <button
+        className="figma-arrival-card__close-btn"
+        onClick={onClose}
+        type="button"
+        aria-label="Close card"
+      >
+        <X size={20} stroke="#2e1065" strokeWidth={2.5} />
+      </button>
+
+      {/* Hero Checkmark Icon */}
+      <div className="figma-arrival-card__hero">
+        <div className="figma-arrival-card__hero-circle">
+          <Check size={36} stroke="#551ba8" strokeWidth={3.8} />
         </div>
-        <CheckCircle size={24} color="#eab308" />
+        <h2 className="figma-arrival-card__title">{title}</h2>
+        <p className="figma-arrival-card__subtitle">{subtitle}</p>
       </div>
 
-      <div className="figma-arrival-card__dest-box">
-        <span>{destination}</span>
-        <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#eab308' }} />
+      {/* Destination Pill Badge */}
+      <div className="figma-arrival-card__badge-wrap">
+        <div className="figma-arrival-card__badge">
+          <span className="figma-arrival-card__badge-dot" />
+          <span className="figma-arrival-card__badge-text">{destination}</span>
+        </div>
       </div>
 
-      <div className="figma-arrival-card__metrics">
-        <div className="figma-arrival-card__metric-item">
-          <span className="figma-arrival-card__metric-label">Trip time</span>
+      {/* Tri-Metrics Section */}
+      <div className="figma-arrival-card__metrics-row">
+        <div className="figma-arrival-card__metric-col">
           <span className="figma-arrival-card__metric-val">{tripTime}</span>
+          <span className="figma-arrival-card__metric-lbl">Trip time</span>
         </div>
-        <div className="figma-arrival-card__divider" />
-        <div className="figma-arrival-card__metric-item">
-          <span className="figma-arrival-card__metric-label">Distance</span>
+        <div className="figma-arrival-card__metric-divider" />
+        <div className="figma-arrival-card__metric-col">
           <span className="figma-arrival-card__metric-val">{distance}</span>
+          <span className="figma-arrival-card__metric-lbl">Distance</span>
         </div>
-        <div className="figma-arrival-card__divider" />
-        <div className="figma-arrival-card__metric-item">
-          <span className="figma-arrival-card__metric-label">Safety score</span>
+        <div className="figma-arrival-card__metric-divider" />
+        <div className="figma-arrival-card__metric-col">
           <span className="figma-arrival-card__metric-val">{safetyScore}</span>
+          <span className="figma-arrival-card__metric-lbl">Safety score</span>
         </div>
       </div>
 
-      <div className="figma-arrival-card__footer-title">How was your route?</div>
+      {/* Safety Check-in Card Box */}
+      <div className="figma-arrival-card__checkin-box">
+        <div className="figma-arrival-card__checkin-header">
+          <h4 className="figma-arrival-card__checkin-title">Safety check-in</h4>
+          <p className="figma-arrival-card__checkin-sub">Let your saathis know you're ok</p>
+        </div>
+        <div className="figma-arrival-card__checkin-btns">
+          <button
+            className="figma-arrival-card__btn-safe"
+            onClick={() => onSafetyCheckIn && onSafetyCheckIn('safe')}
+            type="button"
+          >
+            I am safe
+          </button>
+          <button
+            className="figma-arrival-card__btn-help"
+            onClick={() => onSafetyCheckIn && onSafetyCheckIn('help')}
+            type="button"
+          >
+            Need help
+          </button>
+        </div>
+      </div>
 
-      <div className="figma-arrival-card__safety-btns">
-        <button
-          className="figma-arrival-card__safety-btn"
-          onClick={() => onSelectReaction && onSelectReaction('Safe')}
-          type="button"
-        >
-          <span>😁</span>
-          <span>Safe</span>
-        </button>
-        <button
-          className="figma-arrival-card__safety-btn"
-          onClick={() => onSelectReaction && onSelectReaction('Ok')}
-          type="button"
-        >
-          <span>😐</span>
-          <span>Ok</span>
-        </button>
-        <button
-          className="figma-arrival-card__safety-btn"
-          onClick={() => onSelectReaction && onSelectReaction('Unsafe')}
-          type="button"
-        >
-          <span>😟</span>
-          <span>Unsafe</span>
-        </button>
-        <button
-          className="figma-arrival-card__safety-btn"
-          onClick={() => onSelectReaction && onSelectReaction('Report')}
-          type="button"
-        >
-          <span>🚨</span>
-          <span>Report</span>
-        </button>
+      {/* Route Feedback Section */}
+      <div className="figma-arrival-card__feedback-section">
+        <div className="figma-arrival-card__feedback-lbl">How was your route?</div>
+        <div className="figma-arrival-card__reactions-grid">
+          <button
+            className="figma-arrival-card__reaction-btn"
+            onClick={() => onSelectReaction && onSelectReaction('Safe')}
+            type="button"
+          >
+            <span className="figma-arrival-card__emoji">😁</span>
+            <span className="figma-arrival-card__reaction-lbl">Safe</span>
+          </button>
+          <button
+            className="figma-arrival-card__reaction-btn"
+            onClick={() => onSelectReaction && onSelectReaction('Unsafe')}
+            type="button"
+          >
+            <span className="figma-arrival-card__emoji">😟</span>
+            <span className="figma-arrival-card__reaction-lbl">Unsafe</span>
+          </button>
+          <button
+            className="figma-arrival-card__reaction-btn"
+            onClick={() => onSelectReaction && onSelectReaction('Ok')}
+            type="button"
+          >
+            <span className="figma-arrival-card__emoji">😐</span>
+            <span className="figma-arrival-card__reaction-lbl">Ok</span>
+          </button>
+          <button
+            className="figma-arrival-card__reaction-btn"
+            onClick={() => onSelectReaction && onSelectReaction('Report')}
+            type="button"
+          >
+            <span className="figma-arrival-card__emoji">🚨</span>
+            <span className="figma-arrival-card__reaction-lbl">Report</span>
+          </button>
+        </div>
       </div>
     </div>
   );
