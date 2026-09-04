@@ -1,37 +1,178 @@
-/* Verification code CSS - Bound to Figma Tokens */
+/* Verification Code CSS - Exact reproduction of image_0.png & Figma 52:5013 */
 
-.figma-verify {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-.figma-verify__digits {
+/* Matrix Outer Wrapper */
+.verify-matrix-wrapper {
+  background-color: #ffffff;
+  min-height: 100vh;
   display: flex;
-  gap: var(--uedp-spacing-3, 12px);
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-.figma-verify__input {
-  width: 48px;
-  height: 56px;
+/* White Canvas Container with Subtle Purple Dashed Border */
+.verify-matrix-container {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  padding: 56px 64px;
+  background: #ffffff;
+  border: 2px dashed #9333ea;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(147, 51, 234, 0.06);
+  max-width: 540px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Base Verification Card Unit */
+.verify-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Typography */
+.verify-card__title {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e0c45;
+  letter-spacing: -0.01em;
+}
+
+.verify-card__subtext {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2e1065;
+  margin-bottom: 20px;
+}
+
+.verify-card__timer {
+  font-weight: 700;
+  color: #1e0c45;
+}
+
+/* Digits Row */
+.verify-card__digits-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Circle Digit Slot Geometry */
+.verify-card__circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #f0ebff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1.5px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+/* Input text inside circle */
+.verify-card__input {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
   text-align: center;
-  font-size: var(--uedp-typography-font-size-xl, 20px);
-  font-weight: var(--uedp-typography-font-weight-bold, 700);
-  background-color: var(--uedp-slate-800, #1e293b);
-  border: 1.5px solid var(--uedp-slate-700, #334155);
-  border-radius: var(--uedp-radii-md, 8px);
-  color: var(--uedp-slate-100, #f1f5f9);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e0c45;
   outline: none;
-  transition: all 0.15s ease-in-out;
+  cursor: text;
 }
 
-.figma-verify__input:focus,
-.figma-verify__input--filled {
-  border-color: var(--uedp-primary-500, #3b82f6);
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+/* State 1: Default */
+.verify-card--state-default .verify-card__circle {
+  background-color: #f0ebff;
 }
 
-.figma-verify--error .figma-verify__input {
-  border-color: var(--uedp-rose-500, #f43f5e);
-  color: var(--uedp-rose-500, #f43f5e);
+.verify-card--state-default .verify-card__input {
+  color: #c4b5fd;
+}
+
+/* State 2: Pressed / Hover */
+.verify-card--state-pressed .verify-card__circle,
+.verify-card__circle:hover {
+  background-color: #ebdfff;
+}
+
+.verify-card--state-pressed .verify-card__input {
+  color: #b89bfb;
+}
+
+/* State 3: Active (Typing/Focused) */
+.verify-card--state-active .verify-card__circle {
+  background-color: #ebdfff;
+}
+
+.verify-card--state-active .verify-card__circle--entered .verify-card__input {
+  color: #1e0c45;
+}
+
+.verify-card--state-active .verify-card__circle--placeholder .verify-card__input {
+  color: #c4b5fd;
+}
+
+/* Active Blinking Cursor Line */
+.verify-card__circle--active-cursor {
+  background-color: #ebdfff;
+}
+
+.verify-card__cursor-line {
+  width: 1.5px;
+  height: 22px;
+  background-color: #5b21b6;
+  animation: blinkCursor 1s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* State 4: Filled */
+.verify-card--state-filled .verify-card__circle {
+  background-color: #ebdfff;
+}
+
+.verify-card--state-filled .verify-card__input {
+  color: #1e0c45;
+}
+
+/* State 5: Error */
+.verify-card--state-error .verify-card__circle {
+  background-color: #ffd8d8;
+  border-color: #f43f5e;
+}
+
+.verify-card--state-error .verify-card__input {
+  color: #1e0c45;
+}
+
+.verify-card__error-msg {
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #e11d48;
 }
